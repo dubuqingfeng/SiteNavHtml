@@ -1,0 +1,44 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.section {
+  padding-bottom: 0rem;
+}
+.card .card-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section .card .card-content p a {
+  margin-right: 0px;
+}
+.container .template-content-page {
+  /*margin-top: 64px;*/
+}
+.container .row .section .card-panel {
+  padding-top: 0px;
+}
+.container .row .section .card-panel .sidebar-title {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.container .row .section .card-panel .sidebar-title .sidebar-title-text {
+  margin-left: 20px;
+}
+.container .row .section .valign-wrapper {
+  margin-bottom: 0px;
+}
+.card .card-content p span {
+  margin: 0;
+  color: inherit; 
+}
