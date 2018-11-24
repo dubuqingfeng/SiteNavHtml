@@ -1,0 +1,22 @@
+[
+    {
+        "name": "分类1",
+        "description": "A better default template for html-webpack-plugin.",
+        "links": [
+            {
+                "link": "https://www.baidu.com",
+                "name": "百度"
+            }
+        ]
+    },
+    {
+        "name": "分类2",
+        "description": "A better default template for html-webpack-plugin.",
+        "links": [
+            {
+                "link": "https://www.baidu.com",
+                "name": "百度2"
+            }
+        ]
+    }
+]
