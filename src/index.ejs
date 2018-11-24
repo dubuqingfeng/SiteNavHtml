@@ -77,8 +77,10 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                             <% } %>
                         </div>
                         <div class="card-action light-blue lighten-1">
-                            <a class="white-text text-accent-2" href="/" onclick="">wooyun zone</a>
-                            <a href="/" class="white-text">Freebuf</a>
+                            <% if (Array.isArray(item['special'])) { %><% for (special of item['special']) { %>
+                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick=""><%= special['name'] %></a>
+                            <% } %>
+                            <% } %>
                         </div>
                     </div>
                 </div><%
@@ -92,7 +94,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                 <div class="section">
                     <div class="card z-depth-1">
                         <div class="card-content black-text">
-                            <span class="card-title black-text"><a href="/" class="black-text flow-text" id="title"><%= item['name'] %></a></span>
+                            <span class="card-title black-text"><a href="<%= item['link'] %>" class="black-text flow-text" id="title"><%= item['name'] %></a></span>
                             <% for (classify of item['classify']) { %>
                             <p>
                                 <div class="row">
@@ -100,15 +102,17 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                         <a><%= classify['name'] %></a>&nbsp;&nbsp;&nbsp;|
                                     </div>
                                     <div class="col s12 m10 l11">
-                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a><%= link['name'] %></a><% } %></span>
+                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>"><%= link['name'] %></a><% } %></span>
                                     </div>
                                 </div>
                             </p>
                             <% } %>
                         </div>
                         <div class="card-action light-blue lighten-1">
-                            <a class="white-text text-accent-2" href="/" onclick="">wooyun zone</a>
-                            <a href="/" class="white-text">Freebuf</a>
+                            <% if (Array.isArray(item['special'])) { %><% for (special of item['special']) { %>
+                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick=""><%= special['name'] %></a>
+                            <% } %>
+                            <% } %>
                         </div>
                     </div>
                 </div><%
