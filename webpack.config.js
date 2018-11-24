@@ -4,7 +4,6 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const leftLinks = require('./json/left_links.json');
 const rightLinks = require('./json/right_links.json');
 const recentlyUsed = require('./json/recently_used.json');
-console.log(leftLinks);
 
 module.exports = {
   entry: './src/index.js',
