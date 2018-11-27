@@ -3,24 +3,12 @@
         "name": "安全技术",
         "description": "",
         "special": [
-            {
-                "link": "https://www.baidu.com",
-                "name": "百度"
-            },
-            {
-                "link": "https://www.baidu.com",
-                "name": "百度"
-            }
         ],
         "classify": [
             {
                 "name": "Web 安全",
                 "description": "",
                 "links": [
-                    {
-                        "link": "https://www.baidu.com",
-                        "name": "看雪论坛"
-                    }
                 ]
             },
             {
@@ -38,6 +26,10 @@
                     {
                         "link": "https://www.chinapyg.com/",
                         "name": "飘云阁"
+                    },
+                    {
+                        "link": "https://www.pd521.com/",
+                        "name": "逆向未来"
                     }
                 ]
             },
@@ -56,15 +48,15 @@
                 "description": "",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "360安全播报"
+                        "link": "https://www.anquanke.com/",
+                        "name": "360 安全客"
                     },
                     {
                         "link": "http://www.freebuf.com/",
                         "name": "Freebuf"
                     },
                     {
-                        "link": "https://www.baidu.com",
+                        "link": "http://www.anzerclub.com/",
                         "name": "安在"
                     }
                 ]
@@ -80,12 +72,40 @@
                 ]
             },
             {
+                "name": "漏洞平台",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://butian.360.cn/",
+                        "name": "360 补天"
+                    },
+                    {
+                        "link": "https://www.hackerone.com/",
+                        "name": "HackerOne"
+                    }
+                ]
+            },
+            {
+                "name": "在线 CTF",
+                "description": "",
+                "links": [
+                    {
+                        "link": "http://www.wechall.net/",
+                        "name": "Wechall"
+                    },
+                    {
+                        "link": "https://ringzer0ctf.com/home",
+                        "name": "ringzer0ctf"
+                    }
+                ]
+            },
+            {
                 "name": "安全团队",
                 "description": "",
                 "links": [
                     {
-                        "link": "",
-                        "name": "PKAV"
+                        "link": "https://xlab.tencent.com/cn/",
+                        "name": "腾讯玄武实验室"
                     }
                 ]
             },
@@ -115,14 +135,6 @@
         "name": "编程开发",
         "description": "",
         "special": [
-            {
-                "link": "https://www.baidu.com",
-                "name": "百度"
-            },
-            {
-                "link": "https://www.baidu.com",
-                "name": "百度"
-            }
         ],
         "classify": [
             {
@@ -215,6 +227,14 @@
                     {
                         "link": "https://github.com/bitcoin/bitcoin",
                         "name": "GitHub"
+                    },
+                    {
+                        "link": "https://bitcointalk.org/",
+                        "name": "Bitcointalk"
+                    },
+                    {
+                        "link": "https://lightning.network/",
+                        "name": "Lightning Network"
                     }
                 ]
             },
@@ -228,7 +248,7 @@
                     },
                     {
                         "link": "https://etherscan.io/",
-                        "name": "etherscan"
+                        "name": "Etherscan"
                     }
                 ]
             },
@@ -274,12 +294,8 @@
         "description": "",
         "special": [
             {
-                "link": "https://btc.com",
-                "name": "BTC.com"
-            },
-            {
-                "link": "https://www.baidu.com",
-                "name": "百度"
+                "link": "https://dbqf.xyz",
+                "name": "独步清风"
             }
         ],
         "classify": [
@@ -323,14 +339,6 @@
         "name": "电子设计",
         "description": "",
         "special": [
-            {
-                "link": "https://btc.com",
-                "name": "BTC.com"
-            },
-            {
-                "link": "https://www.baidu.com",
-                "name": "百度"
-            }
         ],
         "classify": [
             {
@@ -359,10 +367,6 @@
         "name": "兴趣爱好",
         "description": "",
         "special": [
-            {
-                "link": "https://www.baidu.com",
-                "name": "TEST"
-            }
         ],
         "classify": [
             {
@@ -372,6 +376,16 @@
                     {
                         "link": "https://www.duitang.com/",
                         "name": "堆糖"
+                    }
+                ]
+            },
+            {
+                "name": "魔方",
+                "description": "",
+                "links": [
+                    {
+                        "link": "http://bbs.mf8-china.com/forum.php",
+                        "name": "魔方吧"
                     }
                 ]
             }
