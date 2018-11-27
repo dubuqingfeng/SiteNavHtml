@@ -1,21 +1,23 @@
 [
     {
-        "name": "分类1",
+        "name": "Wiki",
         "description": "A better default template for html-webpack-plugin.",
         "links": [
             {
-                "link": "https://www.baidu.com",
-                "name": "百度"
-            }
-        ]
-    },
-    {
-        "name": "分类2",
-        "description": "A better default template for html-webpack-plugin.",
-        "links": [
+                "link": "https://en.bitcoin.it/wiki/Main_Page",
+                "name": "Bitcoin Wiki"
+            },
             {
-                "link": "https://www.baidu.com",
-                "name": "百度2"
+                "link": "https://www.sec-wiki.com/",
+                "name": "Sec Wiki"
+            },
+            {
+                "link": "https://ctf-wiki.github.io/ctf-wiki/",
+                "name": "CTF Wiki"
+            },
+            {
+                "link": "https://oi-wiki.org/",
+                "name": "OI Wiki"
             }
         ]
     }

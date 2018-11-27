@@ -2,6 +2,12 @@
     {
         "name": "最近常用",
         "description": "",
+        "special": [
+            {
+                "link": "https://www.v2ex.com/",
+                "name": "V2EX"
+            }
+        ],
         "classify": [
             {
                 "name": "dadada",

@@ -33,7 +33,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
 <div class="container">
     <div class="row template-content-page">
         <div class="col s12 m4 l3">
-            <!-- left classify -->
+            <!-- Left classify -->
             <% if (Array.isArray(htmlWebpackPlugin.options.left_links)) { %><%
                 for (item of htmlWebpackPlugin.options.left_links) { %>
             <div class="section">
@@ -63,16 +63,16 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
             } %><%
             %>
         </div>
+        <!-- End Left classify -->
         <div class="col s12 m8 l9">
-            <!-- recently used -->
+            <!-- Recently used -->
             <!-- 只是为了区分别的分类，并且可以单独更新，所以这里用了两个变量 -->
-            <%
-            if (Array.isArray(htmlWebpackPlugin.options.recently_used_links)) { %><%
+            <% if (Array.isArray(htmlWebpackPlugin.options.recently_used_links)) { %><%
                 for (item of htmlWebpackPlugin.options.recently_used_links) { %>
                 <div class="section">
                     <div class="card z-depth-1">
                         <div class="card-content black-text">
-                            <span class="card-title black-text"><a href="/" class="black-text flow-text" id="title"><%= item['name'] %></a></span>
+                            <span class="card-title black-text"><a href="<%= item['link'] %>" class="black-text flow-text" id="title"><%= item['name'] %></a></span>
                             <% for (classify of item['classify']) { %>
                             <p>
                                 <div class="row">
@@ -97,22 +97,22 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                 } %><%
             } %><%
             %>
-            <!-- left classify -->
-            <%
-            if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %><%
+            <!-- End recently used -->
+            <!-- Right classify -->
+            <% if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %><%
                 for (item of htmlWebpackPlugin.options.right_links) { %>
                 <div class="section">
                     <div class="card z-depth-1">
                         <div class="card-content black-text">
-                            <span class="card-title black-text"><a href="<%= item['link'] %>" class="black-text flow-text" id="title"><%= item['name'] %></a></span>
+                            <span class="card-title black-text"><a href="<%= item['link'] %>" class="black-text flow-text" id="title" target="_blank"><%= item['name'] %></a></span>
                             <% for (classify of item['classify']) { %>
                             <p>
                                 <div class="row">
-                                    <div class="col s12 m2 l1">
-                                        <a><%= classify['name'] %></a>&nbsp;&nbsp;&nbsp;|
+                                    <div class="col s12 m2 l2">
+                                        <a target="_blank"><%= classify['name'] %></a>&nbsp;&nbsp;&nbsp;|
                                     </div>
-                                    <div class="col s12 m10 l11">
-                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>"><%= link['name'] %></a><% } %></span>
+                                    <div class="col s12 m10 l10">
+                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>" target="_blank"><%= link['name'] %></a><% } %></span>
                                     </div>
                                 </div>
                             </p>
@@ -120,7 +120,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                         </div>
                         <div class="card-action light-blue lighten-1">
                             <% if (Array.isArray(item['special'])) { %><% for (special of item['special']) { %>
-                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick=""><%= special['name'] %></a>
+                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick="" target="_blank"><%= special['name'] %></a>
                             <% } %>
                             <% } %>
                         </div>
@@ -129,6 +129,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                 } %><%
             } %><%
             %>
+            <!-- End right classify -->
         </div>
     </div>
 </div>
@@ -153,7 +154,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
             <div class="col l3 s12">
                 <h5 class="white-text">联系</h5>
                 <ul>
-                    <li><a class="white-text" href="https://dbqf.xyz">My Blog</a></li>
+                    <li><a class="white-text" href="https://dbqf.xyz" target="_blank">My Blog</a></li>
                     <li><a class="white-text" href="#!"></a></li>
                     <li><a class="white-text" href="#!"></a></li>
                     <li><a class="white-text" href="#!"></a></li>
@@ -167,6 +168,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
         </div>
     </div>
 </footer>
+<!-- End Footer -->
 <!--  Scripts-->
 </body>
 </html>
