@@ -293,10 +293,6 @@
                         "name": "Lightning Network"
                     },
                     {
-                        "link": "https://jlopp.github.io/bitcoin-core-config-generator/",
-                        "name": "bitcoin-core-config-generator"
-                    },
-                    {
                         "link": "https://bitnodes.earn.com/",
                         "name": "Bitnodes"
                     },
@@ -307,6 +303,10 @@
                     {
                         "link": "https://will-meng.github.io/",
                         "name": "Bitcoin Miner Simulation"
+                    }, 
+                    {
+                        "link": "https://jlopp.github.io/bitcoin-core-config-generator/",
+                        "name": "bitcoin-core-config-generator"
                     }
                 ]
             },

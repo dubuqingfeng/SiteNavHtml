@@ -80,7 +80,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                         <a><%= classify['name'] %></a>&nbsp;&nbsp;&nbsp;|
                                     </div>
                                     <div class="col s12 m10 l10">
-                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a><%= link['name'] %></a><% } %></span>
+                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>" target="_blank"><%= link['name'] %></a><% } %></span>
                                     </div>
                                 </div>
                             </p>
