@@ -9,6 +9,10 @@
                 "name": "Web 安全",
                 "description": "",
                 "links": [
+                    {
+                        "link": "https://www.chabug.org/",
+                        "name": "ChaBug"
+                    }
                 ]
             },
             {
@@ -40,6 +44,20 @@
                     {
                         "link": "http://www.binvul.com/",
                         "name": "BinVul"
+                    }
+                ]
+            },
+            {
+                "name": "移动安全",
+                "description": "",
+                "links": [
+                    {
+                        "link": "http://www.droidsec.cn/",
+                        "name": "Android 安全中文站"
+                    },
+                    {
+                        "link": "https://blog.csdn.net/yiyaaixuexi",
+                        "name": "念茜"
                     }
                 ]
             },
@@ -82,6 +100,10 @@
                     {
                         "link": "https://www.hackerone.com/",
                         "name": "HackerOne"
+                    },
+                    {
+                        "link": "https://dvpnet.io/",
+                        "name": "DVP"
                     }
                 ]
             },
@@ -106,6 +128,10 @@
                     {
                         "link": "https://xlab.tencent.com/cn/",
                         "name": "腾讯玄武实验室"
+                    },
+                    {
+                        "link": "http://k33nteam.org/",
+                        "name": "Keen Team"
                     }
                 ]
             },
@@ -116,6 +142,32 @@
                     {
                         "link": "http://blog.knownsec.com/",
                         "name": "知道创宇"
+                    },
+                    {
+                        "link": "http://www.nsfocus.com.cn/",
+                        "name": "绿盟"
+                    },
+                    {
+                        "link": "http://www.topsec.com.cn/index1.html",
+                        "name": "天融信"
+                    },
+                    {
+                        "link": "http://www.dbappsecurity.com.cn/",
+                        "name": "杭州安恒"
+                    },
+                    {
+                        "link": "https://www.venustech.com.cn/",
+                        "name": "启明星辰"
+                    }
+                ]
+            },
+            {
+                "name": "漏洞库",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://www.exploit-db.com/",
+                        "name": "exploit-db"
                     }
                 ]
             },
@@ -142,8 +194,8 @@
                 "description": "",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://www.lua.org/source/",
+                        "name": "Lua"
                     }
                 ]
             },
@@ -152,8 +204,12 @@
                 "description": "",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://www.drools.org/",
+                        "name": "Drools"
+                    },
+                    {
+                        "link": "https://kafka.apache.org/",
+                        "name": "kafka"
                     }
                 ]
             },
@@ -163,8 +219,8 @@
                 "link": "http://php.net/",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://laravel.com/",
+                        "name": "laravel"
                     }
                 ]
             },
@@ -173,8 +229,8 @@
                 "description": "",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://gin-gonic.github.io/gin/",
+                        "name": "gin"
                     }
                 ]
             },
@@ -183,8 +239,8 @@
                 "description": "",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://www.tornadoweb.org/",
+                        "name": "tornado"
                     }
                 ]
             },
@@ -235,6 +291,22 @@
                     {
                         "link": "https://lightning.network/",
                         "name": "Lightning Network"
+                    },
+                    {
+                        "link": "https://jlopp.github.io/bitcoin-core-config-generator/",
+                        "name": "bitcoin-core-config-generator"
+                    },
+                    {
+                        "link": "https://bitnodes.earn.com/",
+                        "name": "Bitnodes"
+                    },
+                    {
+                        "link": "https://poolprofit.io/zh/",
+                        "name": "PoolProfit"
+                    },
+                    {
+                        "link": "https://will-meng.github.io/",
+                        "name": "Bitcoin Miner Simulation"
                     }
                 ]
             },
@@ -259,6 +331,14 @@
                     {
                         "link": "https://github.com/Bitcoin-ABC/bitcoin-abc",
                         "name": "GitHub"
+                    },
+                    {
+                        "link": "https://copernet.io/",
+                        "name": "Copernicus"
+                    },
+                    {
+                        "link": "https://cash.coin.dance/",
+                        "name": "CoinDance"
                     }
                 ]
             },
@@ -273,6 +353,30 @@
                     {
                         "link": "https://blockchair.com",
                         "name": "Blockchair"
+                    },
+                    {
+                        "link": "https://tokenview.com/",
+                        "name": "TokenView"
+                    }
+                ]
+            },
+            {
+                "name": "MarketCap",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://coinmarketcap.com/",
+                        "name": "CoinMarketCap"
+                    }
+                ]
+            },
+            {
+                "name": "Security",
+                "description": "",
+                "links": [
+                    {
+                        "link": "http://blockchain.seebug.org/",
+                        "name": "Seebug"
                     }
                 ]
             },
@@ -306,6 +410,10 @@
                     {
                         "link": "http://evilcos.me/",
                         "name": "evilcos"
+                    },
+                    {
+                        "link": "https://www.virzz.com/",
+                        "name": "Virink"
                     }
                 ]
             },

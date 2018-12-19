@@ -10,32 +10,16 @@
         ],
         "classify": [
             {
-                "name": "dadada",
+                "name": "业界资讯",
                 "description": "",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://www.infoq.cn/",
+                        "name": "InfoQ"
                     },
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
-                    },
-                    {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
-                    },
-                    {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
-                    },
-                    {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
-                    },
-                    {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://www.oschina.net/",
+                        "name": "开源中国"
                     }
                 ]
             }
