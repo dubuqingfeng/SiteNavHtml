@@ -231,6 +231,10 @@
                     {
                         "link": "https://gin-gonic.github.io/gin/",
                         "name": "gin"
+                    },
+                    {
+                        "link": "https://play.golang.org/",
+                        "name": "playground"
                     }
                 ]
             },
@@ -276,6 +280,28 @@
             }
         ],
         "classify": [
+            {
+                "name": "Coins",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://lopp.net/bitcoin.html",
+                        "name": "RESOURCES"
+                    },
+                    {
+                        "link": "https://www.coinwarz.com/cryptocurrency/coins",
+                        "name": "coinwarz"
+                    },
+                    {
+                        "link": "https://bitinfocharts.com/zh/",
+                        "name": "bitinfocharts"
+                    },
+                    {
+                        "link": "https://miningpoolstats.stream/",
+                        "name": "MiningPoolStats"
+                    }
+                ]
+            },
             {
                 "name": "Bitcoin",
                 "description": "",
@@ -484,6 +510,10 @@
                     {
                         "link": "https://www.duitang.com/",
                         "name": "堆糖"
+                    },
+                    {
+                        "link": "http://1diary.me/web/#/list",
+                        "name": "一本日记"
                     }
                 ]
             },
