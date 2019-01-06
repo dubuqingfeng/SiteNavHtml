@@ -249,6 +249,26 @@
                 ]
             },
             {
+                "name": "Markdown",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://www.tornadoweb.org/",
+                        "name": "HackMD.io"
+                    }
+                ]
+            },
+            {
+                "name": "CSS",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://www.toptal.com/developers/css/sprite-generator",
+                        "name": "CSS Sprites Generator"
+                    }
+                ]
+            },
+            {
                 "name": "Latex",
                 "description": "",
                 "links": [
