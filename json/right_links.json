@@ -423,6 +423,20 @@
                     {
                         "link": "http://blockchain.seebug.org/",
                         "name": "Seebug"
+                    },
+                    {
+                        "link": "https://dvpnet.io/",
+                        "name": "DVP"
+                    }
+                ]
+            },
+            {
+                "name": "Grin",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://www.grinmint.com/pages/index.html",
+                        "name": "grinmint"
                     }
                 ]
             },
