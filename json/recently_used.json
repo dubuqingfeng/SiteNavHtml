@@ -22,6 +22,20 @@
                         "name": "开源中国"
                     }
                 ]
+            },
+            {
+                "name": "技术期刊",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://weekly.manong.io/issues//",
+                        "name": "码农周刊"
+                    },
+                    {
+                        "link": "https://www.anquanke.com/discovery",
+                        "name": "安全客季刊"
+                    }
+                ]
             }
         ]
     }

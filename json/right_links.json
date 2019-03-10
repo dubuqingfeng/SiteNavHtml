@@ -12,6 +12,14 @@
                     {
                         "link": "https://www.chabug.org/",
                         "name": "ChaBug"
+                    },
+                    {
+                        "link": "https://skills.bugbank.cn/",
+                        "name": "漏洞银行技能树"
+                    },
+                    {
+                        "link": "http://www.mottoin.com/",
+                        "nake": "MottoIN"
                     }
                 ]
             },
@@ -132,6 +140,10 @@
                     {
                         "link": "http://k33nteam.org/",
                         "name": "Keen Team"
+                    },
+                    {
+                        "link": "https://blog.chaitin.cn/",
+                        "name": "长亭科技"
                     }
                 ]
             },
@@ -273,8 +285,22 @@
                 "description": "",
                 "links": [
                     {
-                        "link": "https://www.baidu.com",
-                        "name": "百度"
+                        "link": "https://www.latex-project.org/",
+                        "name": "Latex"
+                    }
+                ]
+            },
+            {
+                "name": "Database",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://redis.io",
+                        "name": "Redis"
+                    },
+                    {
+                        "link": "https://github.com/antirez/redis",
+                        "name": "Redis GitHub"
                     }
                 ]
             },
@@ -319,6 +345,10 @@
                     {
                         "link": "https://miningpoolstats.stream/",
                         "name": "MiningPoolStats"
+                    },
+                    {
+                        "link": "https://txstreet.com/",
+                        "name": "TxStreet"
                     }
                 ]
             },
@@ -353,6 +383,32 @@
                     {
                         "link": "https://jlopp.github.io/bitcoin-core-config-generator/",
                         "name": "bitcoin-core-config-generator"
+                    },
+                    {
+                        "link": "https://transactionfee.info/",
+                        "name": "transactionfee"
+                    }
+                ]
+            },
+            {
+                "name": "Segwit",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://en.bitcoin.it/wiki/Segregated_Witness",
+                        "name": "Wiki"
+                    },
+                    {
+                        "link": "https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki",
+                        "name": "BIP141"
+                    },
+                    {
+                        "link": "https://bitcoincore.org/en/segwit_wallet_dev/",
+                        "name": "bitcoin core segwit dev"
+                    },
+                    {
+                        "link": "https://segwitaddress.org/",
+                        "name": "paper wallet"
                     }
                 ]
             },
@@ -367,6 +423,14 @@
                     {
                         "link": "https://etherscan.io/",
                         "name": "Etherscan"
+                    },
+                    {
+                        "link": "https://eth.btc.com/",
+                        "name": "BTC.com"
+                    },
+                    {
+                        "link": "https://www.parity.io/ethereum/",
+                        "name": "parity"
                     }
                 ]
             },
@@ -403,6 +467,42 @@
                     {
                         "link": "https://tokenview.com/",
                         "name": "TokenView"
+                    },
+                    {
+                        "link": "https://chainflyer.bitflyer.com/",
+                        "name": "bitflyer"
+                    },
+                    {
+                        "link": "https://www.blockchain.com/explorer",
+                        "name": "Blockchain"
+                    }
+                ]
+            },
+            {
+                "name": "ZCash",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://github.com/zcash/zips/blob/master/protocol/protocol.pdf",
+                        "name": "Protocol"
+                    }
+                ]
+            },
+            {
+                "name": "闪电网络",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://explorer.acinq.co/",
+                        "name": "Explorer(ACINQ)"
+                    },
+                    {
+                        "link": "https://bitcoinvisuals.com/lightning",
+                        "name": "BitcoinVisuals"
+                    },
+                    {
+                        "link": "https://1ml.com/",
+                        "name": "1ml"
                     }
                 ]
             },
@@ -417,6 +517,16 @@
                 ]
             },
             {
+                "name": "BSV",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://testnet.bitcoincloud.net/",
+                        "name": "Testnet"
+                    }
+                ]
+            },
+            {
                 "name": "Security",
                 "description": "",
                 "links": [
@@ -427,13 +537,29 @@
                     {
                         "link": "https://dvpnet.io/",
                         "name": "DVP"
+                    },
+                    {
+                        "link": "https://www.slowmist.com/",
+                        "name": "慢雾科技"
                     }
                 ]
             },
             {
-                "name": "Grin",
+                "name": "MimbleWimble",
                 "description": "",
                 "links": [
+                    {
+                        "link": "https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt",
+                        "name": "whitepaper"
+                    },
+                    {
+                        "link": "https://github.com/mimblewimble/grin",
+                        "name": "Grin"
+                    },
+                    {
+                        "link": "https://github.com/BeamMW/beam",
+                        "name": "Beam"
+                    },
                     {
                         "link": "https://www.grinmint.com/pages/index.html",
                         "name": "grinmint"
@@ -474,6 +600,34 @@
                     {
                         "link": "https://www.virzz.com/",
                         "name": "Virink"
+                    },
+                    {
+                        "link": "https://programlife.net/",
+                        "name": "程序人生"
+                    },
+                    {
+                        "link": "http://0cx.cc/",
+                        "name": "屌丝归档笔记"
+                    },
+                    {
+                        "link": "https://www.claudxiao.net/",
+                        "name": "i, Claud"
+                    },
+                    {
+                        "link": "https://www.leavesongs.com/",
+                        "name": "离别歌"
+                    },
+                    {
+                        "link": "http://www.daokers.com/",
+                        "name": "金刀客"
+                    },
+                    {
+                        "link": "https://hackfun.org/",
+                        "name": "hackfun"
+                    },
+                    {
+                        "link": "http://www.lijiejie.com/",
+                        "name": "李劼杰"
                     }
                 ]
             },
@@ -558,6 +712,16 @@
                     {
                         "link": "http://bbs.mf8-china.com/forum.php",
                         "name": "魔方吧"
+                    }
+                ]
+            },
+            {
+                "name": "Balisong",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://tieba.baidu.com/f?kw=balisong",
+                        "name": "balisong吧"
                     }
                 ]
             }

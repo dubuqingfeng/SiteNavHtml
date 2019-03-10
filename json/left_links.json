@@ -18,6 +18,40 @@
             {
                 "link": "https://oi-wiki.org/",
                 "name": "OI Wiki"
+            },
+            {
+                "link": "https://myslide.cn/",
+                "name": "PPT myslides"
+            }
+        ]
+    },
+    {
+        "name": "工具",
+        "description": "A better default template for html-webpack-plugin.",
+        "links": [
+            {
+                "link": "https://tool.c7sky.com/password/",
+                "name": "随机字符串生成"
+            },
+            {
+                "link": "https://www.processon.com/",
+                "name": "Processon"
+            },
+            {
+                "link": "https://www.draw.io/",
+                "name": "Draw.io"
+            },
+            {
+                "link": "https://jwt.io/",
+                "name": "Jwt"
+            },
+            {
+                "link": "https://www.ipip.net/",
+                "name": "ipip.net"
+            },
+            {
+                "link": "https://web2hack.org/xssee/",
+                "name": "xssee"
             }
         ]
     }
