@@ -232,7 +232,7 @@
                 "links": [
                     {
                         "link": "https://laravel.com/",
-                        "name": "laravel"
+                        "name": "Laravel"
                     }
                 ]
             },
@@ -242,7 +242,7 @@
                 "links": [
                     {
                         "link": "https://gin-gonic.github.io/gin/",
-                        "name": "gin"
+                        "name": "Gin"
                     },
                     {
                         "link": "https://play.golang.org/",
@@ -256,7 +256,7 @@
                 "links": [
                     {
                         "link": "https://www.tornadoweb.org/",
-                        "name": "tornado"
+                        "name": "Tornado"
                     }
                 ]
             },
