@@ -6,6 +6,18 @@
             {
                 "link": "https://www.v2ex.com/",
                 "name": "V2EX"
+            },
+            {
+                "link": "https://getpocket.com",
+                "name": "Pocket"
+            },
+            {
+                "link": "https://feedly.com/",
+                "name": "Feedly"
+            },
+            {
+                "link": "https://www.instapaper.com/",
+                "name": "instapaper"
             }
         ],
         "classify": [

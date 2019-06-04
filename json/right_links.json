@@ -233,6 +233,10 @@
                     {
                         "link": "https://laravel.com/",
                         "name": "Laravel"
+                    },
+                    {
+                        "link": "https://php.net/",
+                        "name": "PHP Doc"
                     }
                 ]
             },
@@ -247,6 +251,10 @@
                     {
                         "link": "https://play.golang.org/",
                         "name": "playground"
+                    },
+                    {
+                        "link": "https://beego.me/",
+                        "name": "beego"
                     }
                 ]
             },
@@ -257,6 +265,16 @@
                     {
                         "link": "https://www.tornadoweb.org/",
                         "name": "Tornado"
+                    }
+                ]
+            },
+            {
+                "name": "Serverless",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://blog.csdn.net/dev_csdn/article/details/78935852",
+                        "name": "Serverless架构设计指南"
                     }
                 ]
             },
@@ -311,6 +329,16 @@
                     {
                         "link": "https://leetcode.com/",
                         "name": "LeetCode"
+                    }
+                ]
+            },
+            {
+                "name": "Algorithm",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://visualgo.net/en",
+                        "name": "Visualgo"
                     }
                 ]
             }
@@ -387,6 +415,14 @@
                     {
                         "link": "https://transactionfee.info/",
                         "name": "transactionfee"
+                    },
+                    {
+                        "link": "https://iancoleman.io/bip39/",
+                        "name": "BIP39"
+                    },
+                    {
+                        "link": "http://ibloodline.com/articles/2018/01/26/master-bitcoin.html",
+                        "name": "精通比特币"
                     }
                 ]
             },
@@ -443,7 +479,7 @@
                         "name": "GitHub"
                     },
                     {
-                        "link": "https://copernet.io/",
+                        "link": "https://github.com/copernet/copernicus",
                         "name": "Copernicus"
                     },
                     {
@@ -511,6 +547,30 @@
                 ]
             },
             {
+                "name": "EOS",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://github.com/eosio",
+                        "name": "EOSio"
+                    },
+                    {
+                        "link": "https://github.com/EOSIO/Documentation/blob/master/zh-CN/TechnicalWhitePaper.md",
+                        "name": "whitepaper"
+                    }
+                ]
+            },
+            {
+                "name": "Litecoin",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://litecoin.org/",
+                        "name": "litecoin"
+                    }
+                ]
+            },
+            {
                 "name": "MarketCap",
                 "description": "",
                 "links": [
@@ -565,6 +625,10 @@
                         "name": "Beam"
                     },
                     {
+                        "link": "https://aeternity.com/",
+                        "name": "ae"
+                    },
+                    {
                         "link": "https://www.grinmint.com/pages/index.html",
                         "name": "grinmint"
                     }
@@ -578,6 +642,24 @@
                     {
                         "link": "https://github.com/ipfs/ipfs",
                         "name": "GitHub"
+                    }
+                ]
+            },
+            {
+                "name": "People",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://github.com/gmaxwell",
+                        "name": "Gregory Maxwell"
+                    },
+                    {
+                        "link": "https://github.com/ignopeverell",
+                        "name": "Ignotus Peverell"
+                    },
+                    {
+                        "link": "http://ryanfugger.com/",
+                        "name": "Ryan Fugger"
                     }
                 ]
             }
