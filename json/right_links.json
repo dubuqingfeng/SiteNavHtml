@@ -646,6 +646,25 @@
                 ]
             },
             {
+                "name": "钱包",
+                "description": "",
+                "link": "",
+                "links": [
+                    {
+                        "link": "https://www.coinomi.com/en/",
+                        "name": "Coinomi"
+                    },
+                    {
+                        "link": "https://electrum.org/#home",
+                        "name": "Electrum"
+                    },
+                    {
+                        "link": "https://electroncash.org/",
+                        "name": "ElectronCash"
+                    }
+                ]
+            },
+            {
                 "name": "People",
                 "description": "",
                 "links": [

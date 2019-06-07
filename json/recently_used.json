@@ -4,6 +4,10 @@
         "description": "",
         "special": [
             {
+                "link": "https://dida365.com",
+                "name": "滴答清单"
+            },
+            {
                 "link": "https://www.v2ex.com/",
                 "name": "V2EX"
             },
@@ -46,6 +50,24 @@
                     {
                         "link": "https://www.anquanke.com/discovery",
                         "name": "安全客季刊"
+                    }
+                ]
+            },
+            {
+                "name": "笔记",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://evernote.com/intl/zh-cn/",
+                        "name": "Evernote"
+                    },
+                    {
+                        "link": "https://workflowy.com/",
+                        "name": "Workflowy"
+                    },
+                    {
+                        "link": "https://boostnote.io/",
+                        "name": "boostnote"
                     }
                 ]
             }
