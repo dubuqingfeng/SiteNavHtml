@@ -20,6 +20,10 @@
                 "name": "Feedly"
             },
             {
+                "link": "https://www.inoreader.com/",
+                "name": "Inoreader"
+            },
+            {
                 "link": "https://www.instapaper.com/",
                 "name": "instapaper"
             }
@@ -68,6 +72,30 @@
                     {
                         "link": "https://boostnote.io/",
                         "name": "boostnote"
+                    }
+                ]
+            },
+            {
+                "name": "电子书",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://salttiger.com/archives/",
+                        "name": "salttiger"
+                    },
+                    {
+                        "link": "http://bestcbooks.com/",
+                        "name": "计算机书籍控"
+                    }
+                ]
+            },
+            {
+                "name": "就业求职",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://www.1point3acres.com/bbs/",
+                        "name": "一亩三分地"
                     }
                 ]
             }

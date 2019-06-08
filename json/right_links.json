@@ -116,6 +116,16 @@
                 ]
             },
             {
+                "name": "导航",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://www.shentoushi.top/",
+                        "name": "渗透师导航"
+                    }
+                ]
+            },
+            {
                 "name": "在线 CTF",
                 "description": "",
                 "links": [
@@ -138,12 +148,36 @@
                         "name": "腾讯玄武实验室"
                     },
                     {
+                        "link": "https://keenlab.tencent.com/zh/index.html",
+                        "name": "腾讯科恩实验室"
+                    },
+                    {
                         "link": "http://k33nteam.org/",
                         "name": "Keen Team"
                     },
                     {
                         "link": "https://blog.chaitin.cn/",
                         "name": "长亭科技"
+                    },
+                    {
+                        "link": "http://pwning.net/",
+                        "name": "ppp"
+                    },
+                    {
+                        "link": "http://www.blue-lotus.net/",
+                        "name": "蓝莲花"
+                    },
+                    {
+                        "link": "https://googleprojectzero.blogspot.com/",
+                        "name": "project zero"
+                    },
+                    {
+                        "link": "https://blog.pwnhub.cn/",
+                        "name": "胖哈勃"
+                    },
+                    {
+                        "link": "http://blog.nsfocus.net/",
+                        "name": "绿盟博客"
                     }
                 ]
             },
@@ -237,6 +271,18 @@
                     {
                         "link": "https://php.net/",
                         "name": "PHP Doc"
+                    },
+                    {
+                        "link": "https://www.swoole.com/",
+                        "name": "Swoole"
+                    },
+                    {
+                        "link": "https://www.workerman.net/",
+                        "name": "Workerman"
+                    },
+                    {
+                        "link": "https://phalconphp.com/zh/",
+                        "name": "Phalcon"
                     }
                 ]
             },
@@ -351,6 +397,10 @@
             {
                 "link": "https://btc.com",
                 "name": "BTC.com"
+            },
+            {
+                "link": "http://www.qukuaiwang.com.cn/",
+                "name": "区块网"
             }
         ],
         "classify": [
@@ -685,6 +735,39 @@
         ]
     },
     {
+        "name": "运维之道",
+        "description": "",
+        "special": [
+            {
+                "link": "https://dbqf.xyz",
+                "name": "独步清风"
+            }
+        ],
+        "classify": [
+            {
+                "name": "DevOps",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://dockone.io/",
+                        "name": "Dockone"
+                    }
+                ]
+            },
+            {
+                "name": "Kubernetes",
+                "description": "",
+                "link": "https://kubernetes.io/",
+                "links": [
+                    {
+                        "link": "https://github.com/kubeflow/kubeflow",
+                        "name": "kubeflow"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "IT博客",
         "description": "",
         "special": [
@@ -698,6 +781,10 @@
                 "name": "安全技术",
                 "description": "",
                 "links": [
+                    {
+                        "link": "https://blog.flanker017.me/",
+                        "name": "flanker"
+                    },
                     {
                         "link": "http://evilcos.me/",
                         "name": "evilcos"
@@ -733,6 +820,38 @@
                     {
                         "link": "http://www.lijiejie.com/",
                         "name": "李劼杰"
+                    },
+                    {
+                        "link": "https://www.iswin.org/",
+                        "name": "随风"
+                    },
+                    {
+                        "link": "https://rickyhao.com/",
+                        "name": "ricky"
+                    },
+                    {
+                        "link": "http://riusksk.me/",
+                        "name": "泉哥"
+                    },
+                    {
+                        "link": "http://blog.fatezero.org/",
+                        "name": "fate0"
+                    },
+                    {
+                        "link": "http://whereisk0shl.top/",
+                        "name": "k0shl"
+                    },
+                    {
+                        "link": "http://blog.orange.tw/",
+                        "name": "orange"
+                    },
+                    {
+                        "link": "http://brieflyx.me/",
+                        "name": "BrieflyX"
+                    },
+                    {
+                        "link": "http://foreversong.cn/",
+                        "name": "ADog’s Blog"
                     }
                 ]
             },
@@ -807,6 +926,14 @@
                     {
                         "link": "http://1diary.me/web/#/list",
                         "name": "一本日记"
+                    },
+                    {
+                        "link": "http://www.baiduonce.com/index.html",
+                        "name": "无损音乐搜索下载"
+                    },
+                    {
+                        "link": "http://www.yoho.cn/",
+                        "name": "yoho"
                     }
                 ]
             },

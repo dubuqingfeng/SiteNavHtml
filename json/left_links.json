@@ -47,15 +47,11 @@
             },
             {
                 "link": "https://jwt.io/",
-                "name": "Jwt"
+                "name": "Jwt.io"
             },
             {
                 "link": "https://www.ipip.net/",
                 "name": "ipip.net"
-            },
-            {
-                "link": "https://web2hack.org/xssee/",
-                "name": "xssee"
             }
         ]
     }
