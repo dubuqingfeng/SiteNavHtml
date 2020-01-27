@@ -335,6 +335,16 @@
                 ]
             },
             {
+                "name": "跨平台",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://flutter.dev/",
+                        "name": "flutter"
+                    }
+                ]
+            },
+            {
                 "name": "编译器",
                 "description": "",
                 "links": [
@@ -966,6 +976,16 @@
                     {
                         "link": "http://www.yinwang.org/",
                         "name": "王垠"
+                    }
+                ]
+            },
+            {
+                "name": "Bitcoin",
+                "description": "",
+                "links": [
+                    {
+                        "link": "https://bitslog.com/",
+                        "name": "Bitslog"
                     }
                 ]
             }
