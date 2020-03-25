@@ -537,6 +537,10 @@
                     {
                         "link": "http://ibloodline.com/articles/2018/01/26/master-bitcoin.html",
                         "name": "精通比特币"
+                    },
+                    {
+                        "link": "https://bitcoin.clarkmoody.com/dashboard/",
+                        "name": "bitcoin-dashboard"
                     }
                 ]
             },
@@ -1044,6 +1048,10 @@
                     {
                         "link": "http://www.yoho.cn/",
                         "name": "yoho"
+                    },
+                    {
+                        "link": "https://www.canva.cn/",
+                        "name": "canva"
                     }
                 ]
             },
