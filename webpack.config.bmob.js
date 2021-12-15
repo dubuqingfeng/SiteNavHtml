@@ -6,7 +6,6 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const leftLinks = require('./outputs/left_links.json');
 const rightLinks = require('./outputs/right_links.json');
-const recentlyUsed = require('./outputs/recently_used.json');
 
 module.exports = {
   entry: './src/index.js',
@@ -16,7 +15,6 @@ module.exports = {
       lang: 'zh-cn',
       left_links: leftLinks,
       right_links: rightLinks,
-      recently_used_links: recentlyUsed,
       template: 'src/index.ejs',
     }),
     new CleanWebpackPlugin({

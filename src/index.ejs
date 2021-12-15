@@ -66,39 +66,6 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
         </div>
         <!-- End Left classify -->
         <div class="col s12 m8 l9">
-            <!-- Recently used -->
-            <!-- 只是为了区分别的分类，并且可以单独更新，所以这里用了两个变量 -->
-            <% if (Array.isArray(htmlWebpackPlugin.options.recently_used_links)) { %><%
-                for (item of htmlWebpackPlugin.options.recently_used_links) { %>
-                <div class="section">
-                    <div class="card z-depth-1">
-                        <div class="card-content black-text">
-                            <span class="card-title black-text"><a href="<%= item['link'] %>" class="black-text flow-text" id="title"><%= item['name'] %></a></span>
-                            <% for (classify of item['classify']) { %>
-                            <p>
-                                <div class="row">
-                                    <div class="col s12 m2 l2">
-                                        <a><%= classify['name'] %></a>&nbsp;&nbsp;&nbsp;|
-                                    </div>
-                                    <div class="col s12 m10 l10">
-                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>" target="_blank"><%= link['name'] %></a><% } %></span>
-                                    </div>
-                                </div>
-                            </p>
-                            <% } %>
-                        </div>
-                        <div class="card-action light-blue lighten-1">
-                            <% if (Array.isArray(item['special'])) { %><% for (special of item['special']) { %>
-                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick=""><%= special['name'] %></a>
-                            <% } %>
-                            <% } %>
-                        </div>
-                    </div>
-                </div><%
-                } %><%
-            } %><%
-            %>
-            <!-- End recently used -->
             <!-- Right classify -->
             <% if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %><%
                 for (item of htmlWebpackPlugin.options.right_links) { %>

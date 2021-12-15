@@ -9,10 +9,13 @@ Bmob.initialize(secret_key, app_security_key);
 function fetchData(table, output_filename) {
     let lists = [];
     const query = Bmob.Query(table);
+    query.limit(1000);
+    query.order("sort");
     query.find().then(res => {
         console.log("fetched " + table);
         for (let i = 0; i < res.length; i++) {
             r = res[i];
+            delete r.objectId;
             lists.push(r);
         }
         // convert JSON object to string
