@@ -34,7 +34,7 @@ right_links:
 | ---- | ---- | ---- |
 |  sort    |   Number   |      |
 |   classify    |   Array   |      |
-|   special   |   String   |      |
+|   special   |   Array   |      |
 |   name   |   String   |      |
 |   createdAt   |   Date   |      |
 |   updatedAt   |   Date   |      |

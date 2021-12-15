@@ -33,4 +33,3 @@ function fetchData(table, output_filename) {
 
 fetchData("left_links", "left_links");
 fetchData("right_links", "right_links");
-fetchData("recently_used", "recently_used");
