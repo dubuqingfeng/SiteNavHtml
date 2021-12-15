@@ -4,9 +4,9 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const leftLinks = require('./json/left_links.json');
-const rightLinks = require('./json/right_links.json');
-const recentlyUsed = require('./json/recently_used.json');
+const leftLinks = require('./outputs/left_links.json');
+const rightLinks = require('./outputs/right_links.json');
+const recentlyUsed = require('./outputs/recently_used.json');
 
 module.exports = {
   entry: './src/index.js',

@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -19,14 +19,20 @@ module.exports = {
       recently_used_links: recentlyUsed,
       template: 'src/index.ejs',
     }),
-    new CleanWebpackPlugin(['docs']),
-    new CopyWebpackPlugin([
-      {
-        from: './CNAME',
-        to: './CNAME',
-        toType: 'file'
-      },
-    ], {}),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: [
+        '**/*',
+      ],
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: './CNAME',
+          to: './CNAME',
+          toType: 'file'
+        }
+      ]
+    }),
     new MiniCssExtractPlugin({
       filename: "[name].[hash].css",
       chunkFilename: "[id].css"
@@ -43,8 +49,6 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              // you can specify a publicPath here
-              // by default it use publicPath in webpackOptions.output
               publicPath: '../'
             }
           },
