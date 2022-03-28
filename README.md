@@ -8,7 +8,7 @@ https://sitenav.link
 
 数据：
 
-目前在 json 文件夹下
+目前在 json 文件夹下，bmob 的话，放 outputs 文件夹。
 
 ### 数据服务
 
@@ -22,19 +22,24 @@ left_links:
 | ---- | ---- | ---- |
 |  sort    |   Number   |      |
 |  links    |   Array   |      |
-|   description   |   String   |      |
-|   name   |   String   |      |
-|   createdAt   |   Date   |      |
-|   updatedAt   |   Date   |      |
+|  description   |   String   |      |
+|  name   |   String   |      |
+|  createdAt   |   Date   |      |
+|  updatedAt   |   Date   |      |
 
 
 right_links:
 
 |   字段名   |   类型   |   备注   |
 | ---- | ---- | ---- |
-|  sort    |   Number   |      |
+|   sort    |   Number   |      |
 |   classify    |   Array   |      |
 |   special   |   Array   |      |
 |   name   |   String   |      |
 |   createdAt   |   Date   |      |
 |   updatedAt   |   Date   |      |
+
+
+### FAQ
+
+1. node 版本 > v12
