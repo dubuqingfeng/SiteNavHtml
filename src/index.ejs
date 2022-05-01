@@ -51,7 +51,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                     <%
                                         for (link of item['links']) { %>
                                     <li>
-                                        <a href="<%= link['link'] %>" target="_blank"><%= link['name'] %></a>
+                                        <a href="<%= link['link'] %>" target="_blank" title="<%= link['title'] %>"><%= link['name'] %></a>
                                     </li>
                                     <% } %>
                                 </ul>
@@ -80,7 +80,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                         <a target="_blank"><%= classify['name'] %></a>&nbsp;&nbsp;&nbsp;|
                                     </div>
                                     <div class="col s12 m10 l10">
-                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>" target="_blank"><%= link['name'] %></a><% } %></span>
+                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>" target="_blank" title="<%= link['title'] %>"><%= link['name'] %></a><% } %></span>
                                     </div>
                                 </div>
                             </p>
@@ -88,7 +88,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                         </div>
                         <div class="card-action light-blue lighten-1">
                             <% if (Array.isArray(item['special'])) { %><% for (special of item['special']) { %>
-                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick="" target="_blank"><%= special['name'] %></a>
+                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick="" target="_blank" title="<%= special['title'] %>"><%= special['name'] %></a>
                             <% } %>
                             <% } %>
                         </div>
