@@ -30,20 +30,24 @@
         ],
         "classify": [
             {
+                "id": "yejiezixun",
                 "name": "业界资讯",
                 "description": "",
                 "links": [
                     {
                         "link": "https://www.infoq.cn/",
-                        "name": "InfoQ"
+                        "name": "InfoQ",
+                        "description": "一个实践驱动、以社区为中心的技术媒体平台"
                     },
                     {
                         "link": "https://www.oschina.net/",
-                        "name": "开源中国"
+                        "name": "开源中国",
+                        "description": "中文开源技术交流社区"
                     }
                 ]
             },
             {
+                "id": "jishuqikan",
                 "name": "技术期刊",
                 "description": "",
                 "links": [
@@ -58,6 +62,7 @@
                 ]
             },
             {
+                "id": "biji",
                 "name": "笔记",
                 "description": "",
                 "links": [
@@ -76,6 +81,7 @@
                 ]
             },
             {
+                "id": "dianzishu",
                 "name": "电子书",
                 "description": "",
                 "links": [
@@ -94,6 +100,7 @@
                 ]
             },
             {
+                "id": "jiuyeqiuzhi",
                 "name": "就业求职",
                 "description": "",
                 "links": [
@@ -112,6 +119,7 @@
         ],
         "classify": [
             {
+                "id": "webanquan",
                 "name": "Web 安全",
                 "description": "",
                 "links": [
@@ -130,6 +138,7 @@
                 ]
             },
             {
+                "id": "pojiecrack",
                 "name": "破解 crack",
                 "description": "",
                 "links": [
@@ -152,6 +161,7 @@
                 ]
             },
             {
+                "id": "erjinzhianquan",
                 "name": "二进制安全",
                 "description": "",
                 "links": [
@@ -162,6 +172,7 @@
                 ]
             },
             {
+                "id": "yidonganquan",
                 "name": "移动安全",
                 "description": "",
                 "links": [
@@ -176,6 +187,7 @@
                 ]
             },
             {
+                "id": "zixunpingtai",
                 "name": "资讯平台",
                 "description": "",
                 "links": [
@@ -194,6 +206,7 @@
                 ]
             },
             {
+                "id": "xsspingtai",
                 "name": "XSS 平台",
                 "description": "",
                 "links": [
@@ -204,6 +217,7 @@
                 ]
             },
             {
+                "id": "loudongpingtai",
                 "name": "漏洞平台",
                 "description": "",
                 "links": [
@@ -956,6 +970,7 @@
         ],
         "classify": [
             {
+                "id": "gongsiboke",
                 "name": "公司博客",
                 "description": "公司博客",
                 "links": [
@@ -978,6 +993,7 @@
                 ]
             },
             {
+                "id": "blog-anquanjishu",
                 "name": "安全技术",
                 "description": "",
                 "links": [
@@ -1112,6 +1128,7 @@
         ],
         "classify": [
             {
+                "id": "shumeipai",
                 "name": "树莓派",
                 "description": "",
                 "links": [
@@ -1122,6 +1139,7 @@
                 ]
             },
             {
+                "id": "Arduino",
                 "name": "Arduino",
                 "description": "",
                 "links": [
@@ -1140,6 +1158,7 @@
         ],
         "classify": [
             {
+                "id": "meihaoshenghuo",
                 "name": "美好生活",
                 "description": "",
                 "links": [
@@ -1166,6 +1185,7 @@
                 ]
             },
             {
+                "id": "wangluoyingpan",
                 "name": "网络硬盘",
                 "description": "",
                 "links": [
@@ -1176,6 +1196,7 @@
                 ]
             },
             {
+                "id": "mofang",
                 "name": "魔方",
                 "description": "",
                 "links": [
@@ -1186,6 +1207,7 @@
                 ]
             },
             {
+                "id": "Balisong",
                 "name": "Balisong",
                 "description": "",
                 "links": [

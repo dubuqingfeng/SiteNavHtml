@@ -1,0 +1,136 @@
+<% var item, key %><%
+htmlWebpackPlugin.options.lang = htmlWebpackPlugin.options.lang || "en" %><%
+htmlWebpackPlugin.options.left_links = htmlWebpackPlugin.options.left_links || [] %><%
+htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYPE html>
+<html lang="<%= htmlWebpackPlugin.options.lang %>">
+<!-- Header -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-129728264-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+</head>
+<body>
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">网址导航</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light" href="https://xiaoye.me">Life</a></li>
+            <li><a class="waves-effect waves-light" href="https://dbqf.xyz">Tech</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    </div>
+</nav>
+<!-- End Header -->
+<!-- Body -->
+<div class="container">
+    <div class="row template-content-page">
+        <div class="col s12 m4 l3">
+            <!-- Left classify -->
+            <% if (Array.isArray(htmlWebpackPlugin.options.left_links)) { %><%
+                for (item of htmlWebpackPlugin.options.left_links) { %>
+            <div class="section">
+                <div class="card-panel z-depth-1">
+                    <div class="card light-blue lighten-1 sidebar-title">
+                        <span class="white-text sidebar-title-text"><a href=""
+                                                                        class="white-text flow-text"
+                                                                        id="title"><%= item['name'] %></a></span>
+                    </div>
+                    <div class="row valign-wrapper">
+                        <div class="col s12">
+                            <div class="card-action">
+                                <ul class="">
+                                    <%
+                                        for (link of item['links']) { %>
+                                    <li>
+                                        <a href="<%= link['link'] %>" target="_blank" title="<%= link['title'] %>"><%= link['name'] %></a>
+                                    </li>
+                                    <% } %>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><%
+                } %><%
+            } %><%
+            %>
+        </div>
+        <!-- End Left classify -->
+        <div class="col s12 m8 l9">
+            <!-- Right classify -->
+            <% if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %><%
+                for (item of htmlWebpackPlugin.options.right_links) { %>
+                <div class="section">
+                    <div class="card z-depth-1">
+                        <div class="card-content black-text">
+                            <span class="card-title black-text"><a href="<%= item['link'] %>" class="black-text flow-text" id="title" target="_blank"><%= item['name'] %></a></span>
+                            <% for (classify of item['classify']) { %>
+                            <p>
+                                <div class="row">
+                                    <div class="col s12 m2 l2">
+                                        <a target="_blank"><%= classify['name'] %></a>&nbsp;&nbsp;&nbsp;|
+                                    </div>
+                                    <div class="col s12 m10 l10">
+                                        <span class=""><% for (link of classify['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= link['link'] %>" target="_blank" title="<%= link['title'] %>"><%= link['name'] %></a><% } %></span>
+                                    </div>
+                                </div>
+                            </p>
+                            <% } %>
+                        </div>
+                        <div class="card-action light-blue lighten-1">
+                            <% if (Array.isArray(item['special'])) { %><% for (special of item['special']) { %>
+                            <a class="white-text text-accent-2" href="<%= special['link'] %>" onclick="" target="_blank" title="<%= special['title'] %>"><%= special['name'] %></a>
+                            <% } %>
+                            <% } %>
+                        </div>
+                    </div>
+                </div><%
+                } %><%
+            } %><%
+            %>
+            <!-- End right classify -->
+        </div>
+    </div>
+</div>
+<!-- End Body -->
+<!-- Footer -->
+<footer class="page-footer orange">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">关于我们</h5>
+                <p class="grey-text text-lighten-4">一个不知名的网址导航.</p>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">友情链接</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">联系</h5>
+                <ul>
+                    <li><a class="white-text" href="https://dbqf.xyz" target="_blank">My Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made by <a class="orange-text text-lighten-3" href="https://github.com/dubuqingfeng/SiteNavHtml">Dubuqingfeng</a>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+<!--  Scripts-->
+</body>
+</html>

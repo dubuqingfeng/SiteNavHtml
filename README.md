@@ -39,6 +39,10 @@ right_links:
 |   createdAt   |   Date   |      |
 |   updatedAt   |   Date   |      |
 
+```
+BMOB_SECRET_KEY= BMOB_APP_SECURITY_KEY= npm run bmob
+```
+
 
 ### FAQ
 
