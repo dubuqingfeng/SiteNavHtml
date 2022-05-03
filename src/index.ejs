@@ -47,6 +47,37 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                     <li data-username="dashboard" class="nav-item active">
                         <a href="index.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
                     </li>
+                    <!-- Right Classify Menu -->
+                    <% if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %>
+                    <% for (item of htmlWebpackPlugin.options.right_links) { %>
+                        <li data-username="" class="nav-item pcoded-hasmenu">
+                            <a href="javascript:" class="nav-link "><span class="pcoded-mtext"><%= item['name'] %></span></a>
+                            <ul class="pcoded-submenu">
+                                <% for (var i=0; i<item['classify'].length; i++) { %>
+                                    <li><a class="" id="v-pills-home-tab" data-toggle="pill" href="#<%= item['classify'][i]['id'] %>" role="tab" aria-controls="<%= item['classify'][i]['id'] %>" aria-selected="true"><%= item['classify'][i]['name'] %></a></li>
+                                <% } %>
+                            </ul>
+                        </li>
+                    <% } %>
+                    <% } %>
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>分割线</label>
+                    </li>
+                    <!-- Left classify -->
+                    <% if (Array.isArray(htmlWebpackPlugin.options.left_links)) { %><%
+                        for (item of htmlWebpackPlugin.options.left_links) { %>
+                            <li data-username="" class="nav-item pcoded-hasmenu">
+                                <a href="javascript:" class="nav-link "><span class="pcoded-mtext"><%= item['name'] %></span></a>
+                                <ul class="pcoded-submenu">
+                                    <% for (link of item['links']) { %>
+                                        <li><a class="" id="v-pills-home-tab" data-toggle="pill" href="<%= link['link'] %>" role="tab" aria-controls="<%= link['id'] %>" aria-selected="true"><%= link['name'] %></a></li>
+                                    <% } %>
+                                </ul>
+                            </li>
+                            <%
+                } %><%
+            } %><%
+            %>
                 </ul>
             </div>
         </div>
@@ -61,7 +92,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                    <div class="b-bg">
                        <i class="feather icon-trending-up"></i>
                    </div>
-                   <span class="b-title">Datta Able</span>
+                   <span class="b-title">SiteNav</span>
                </a>
         </div>
         <a class="mobile-menu" id="mobile-header" href="javascript:">
@@ -69,14 +100,20 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
         </a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <li><a href="javascript:" class="full-screen" onclick="javascript:toggleFullScreen()"><i class="feather icon-maximize"></i></a></li>
-                <li class="nav-item dropdown">
+                <!-- <li><a href="javascript:" class="full-screen" onclick="javascript:toggleFullScreen()"><i class="feather icon-maximize"></i></a></li> -->
+                <!-- <li class="nav-item dropdown">
                     <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown">Dropdown</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="javascript:">Action</a></li>
                         <li><a class="dropdown-item" href="javascript:">Another action</a></li>
                         <li><a class="dropdown-item" href="javascript:">Something else here</a></li>
                     </ul>
+                </li> -->
+                <li class="nav-item">
+                    <a class="waves-effect waves-light" href="https://xiaoye.me">Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="waves-effect waves-light" href="https://dbqf.xyz">Tech</a>
                 </li>
                 <li class="nav-item">
                     <div class="main-search">
@@ -91,6 +128,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                         </div>
                     </div>
                 </li>
+                
             </ul>
         </div>
     </header>
@@ -116,7 +154,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                         <div class="card">
                                             <div class="card-header"><h5><%= item['name'] %></h5></div>
                                             <div class="row">
-                                                <div class="col-md-1 col-sm-12">
+                                                <div class="col-lg-1 col-md-2 col-sm-12">
                                                     <ul class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                                         <% for (var i=0; i<item['classify'].length; i++) { %>
                                                         <li><a class="nav-link text-left <%if(i==0){%>active <%}%>" id="v-pills-home-tab" data-toggle="pill" href="#<%= item['classify'][i]['id'] %>" role="tab" aria-controls="<%= item['classify'][i]['id'] %>" aria-selected="true"><%= item['classify'][i]['name'] %></a></li>
@@ -124,7 +162,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                                         <!-- <li><a class="nav-link text-left active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a></li> -->
                                                     </ul>
                                                 </div>
-                                                <div class="col-md-11 col-sm-12">
+                                                <div class="col-lg-11 col-md-10 col-sm-12">
                                                     <div class="tab-content" id="v-pills-tabContent">
                                                         <% for(var i=0; i<item['classify'].length; i++) { %>
                                                             <div class="tab-pane fade <%if(i==0){%>show active <%}%>" id="<%= item['classify'][i]['id'] %>" role="tabpanel" aria-labelledby="<%= item['classify'][i]['id'] %>-tab">
@@ -138,7 +176,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                                                                 </a></h5>
                                                                                 <p class="card-text"><%= link['description'] %></p>
                                                                             </div>
-                                                                            
+                                                                        
                                                                         </div>
                                                                     </div>
                                                                 <% } %>
@@ -148,7 +186,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                                     </div>
                                                 </div>
                                             </div>
-                                            <% if (Array.isArray(item['special'])) { %>
+                                            <% if (Array.isArray(item['special']) && item['special'].length > 0) { %>
                                                 <div class="card-footer">
                                                     <% for (special of item['special']) { %>
                                                         <a class="btn btn-light" role="button" href="<%= special['link'] %>" target="_blank" title="<%= special['title'] %>">
@@ -163,54 +201,6 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                 <% } %>
                                 <% } %>
                                 <!-- End right classify -->
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h5>区块链</h5>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-1 col-sm-12">
-                                            <ul class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                                <li><a class="nav-link text-left active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a></li>
-                                                <li><a class="nav-link text-left" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a></li>
-                                                <li><a class="nav-link text-left" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">MimbleWimble</a></li>
-                                                <li><a class="nav-link text-left" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-11 col-sm-12">
-                                            <div class="tab-content" id="v-pills-tabContent">
-                                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                    <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                                </div>
-                                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                                    <p class="mb-0">Culpa dolor voluptate do laboris laboris irure reprehenderit id incididunt duis pariatur mollit aute magna pariatur consectetur. Eu veniam duis non ut dolor deserunt commodo et minim in quis laboris ipsum velit id veniam. Quis ut consectetur adipisicing officia excepteur non sit. Ut et elit aliquip labore Lorem enim eu. Ullamco mollit occaecat dolore ipsum id officia mollit qui esse anim eiusmod do sint minim consectetur qui.</p>
-                                                </div>
-                                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                                    <p class="mb-0">Fugiat id quis dolor culpa eiusmod anim velit excepteur proident dolor aute qui magna. Ad proident laboris ullamco esse anim Lorem Lorem veniam quis Lorem irure occaecat velit nostrud magna nulla. Velit et et proident Lorem do ea tempor officia dolor. Reprehenderit Lorem aliquip labore est magna commodo est ea veniam consectetur.</p>
-                                                </div>
-                                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                                    <p class="mb-0">Eu dolore ea ullamco dolore Lorem id cupidatat excepteur reprehenderit consectetur elit id dolor proident in cupidatat officia. Voluptate excepteur commodo labore nisi cillum duis aliqua do. Aliqua amet qui mollit consectetur nulla mollit velit aliqua veniam nisi id do Lorem deserunt amet. Culpa ullamco sit adipisicing labore officia magna elit nisi in aute tempor commodo eiusmod.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-footer">
-                                            <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                            <button type="button" class="btn btn-primary" title="btn btn-primary" data-toggle="tooltip">Primary</button>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             <!-- [ Main Content ] end -->
                         </div>
@@ -267,9 +257,6 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
         </div>
     <![endif]-->
     <!-- Warning Section Ends -->
-
     <!-- Required Js -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
-
 </body>
 </html>

@@ -8,7 +8,9 @@ const leftLinks = require('./json/left_links.json');
 const rightLinks = require('./json/right_links.json');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: [
+    './src/index.js'
+  ],
   plugins: [
     new HtmlWebpackPlugin({
       title: '这是一个网址导航',
@@ -52,6 +54,13 @@ module.exports = {
           },
           "css-loader"
         ]
+      },
+      {
+        test: require.resolve("jquery"),
+        loader: "expose-loader",
+        options: {
+          exposes: ["$", "jQuery"],
+        },
       },
     ],
   },
