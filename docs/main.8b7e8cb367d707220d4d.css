@@ -2876,7 +2876,7 @@ p.text-muted {
           transform: rotateY(-90deg);
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
