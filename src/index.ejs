@@ -40,7 +40,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                 <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
             </div>
             <div class="navbar-content scroll-div">
-                <ul class="nav pcoded-inner-navbar">
+                <ul class="nav pcoded-inner-navbar" role="tablist" aria-orientation="vertical">
                     <li class="nav-item pcoded-menu-caption">
                         <label>Navigation</label>
                     </li>
@@ -54,14 +54,14 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                             <a href="javascript:" class="nav-link "><span class="pcoded-mtext"><%= item['name'] %></span></a>
                             <ul class="pcoded-submenu">
                                 <% for (var i=0; i<item['classify'].length; i++) { %>
-                                    <li><a class="" id="v-pills-home-tab" data-toggle="pill" href="#<%= item['classify'][i]['id'] %>" role="tab" aria-controls="<%= item['classify'][i]['id'] %>" aria-selected="true"><%= item['classify'][i]['name'] %></a></li>
+                                    <li><a class="" id="tab" data-toggle="pill" href="#<%= item['classify'][i]['id'] %>" role="tab" aria-controls="<%= item['classify'][i]['id'] %>" aria-selected="true"><%= item['classify'][i]['name'] %></a></li>
                                 <% } %>
                             </ul>
                         </li>
                     <% } %>
                     <% } %>
                     <li class="nav-item pcoded-menu-caption">
-                        <label>分割线</label>
+                        <label>Links</label>
                     </li>
                     <!-- Left classify -->
                     <% if (Array.isArray(htmlWebpackPlugin.options.left_links)) { %><%
@@ -70,7 +70,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                 <a href="javascript:" class="nav-link "><span class="pcoded-mtext"><%= item['name'] %></span></a>
                                 <ul class="pcoded-submenu">
                                     <% for (link of item['links']) { %>
-                                        <li><a class="" id="v-pills-home-tab" data-toggle="pill" href="<%= link['link'] %>" role="tab" aria-controls="<%= link['id'] %>" aria-selected="true"><%= link['name'] %></a></li>
+                                        <li><a class="" id="home-tab" data-toggle="pill" href="<%= link['link'] %>" role="tab" aria-controls="<%= link['id'] %>" aria-selected="true"><%= link['name'] %></a></li>
                                     <% } %>
                                 </ul>
                             </li>
@@ -83,7 +83,6 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
         </div>
     </nav>
     <!-- [ navigation menu ] end -->
-
     <!-- [ Header ] start -->
     <header class="navbar pcoded-header navbar-expand-lg navbar-light">
         <div class="m-header">
@@ -100,15 +99,6 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
         </a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <!-- <li><a href="javascript:" class="full-screen" onclick="javascript:toggleFullScreen()"><i class="feather icon-maximize"></i></a></li> -->
-                <!-- <li class="nav-item dropdown">
-                    <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown">Dropdown</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="javascript:">Action</a></li>
-                        <li><a class="dropdown-item" href="javascript:">Another action</a></li>
-                        <li><a class="dropdown-item" href="javascript:">Something else here</a></li>
-                    </ul>
-                </li> -->
                 <li class="nav-item">
                     <a class="waves-effect waves-light" href="https://xiaoye.me">Life</a>
                 </li>
@@ -140,7 +130,6 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
             <div class="pcoded-content">
                 <div class="pcoded-inner-content">
                     <!-- [ breadcrumb ] start -->
-
                     <!-- [ breadcrumb ] end -->
                     <div class="main-body">
                         <div class="page-wrapper">
@@ -154,7 +143,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                         <div class="card">
                                             <div class="card-header"><h5><%= item['name'] %></h5></div>
                                             <div class="row">
-                                                <div class="col-lg-1 col-md-2 col-sm-12">
+                                                <div class="col-xl-1 col-lg-2 col-md-2 col-sm-12">
                                                     <ul class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                                         <% for (var i=0; i<item['classify'].length; i++) { %>
                                                         <li><a class="nav-link text-left <%if(i==0){%>active <%}%>" id="v-pills-home-tab" data-toggle="pill" href="#<%= item['classify'][i]['id'] %>" role="tab" aria-controls="<%= item['classify'][i]['id'] %>" aria-selected="true"><%= item['classify'][i]['name'] %></a></li>
@@ -162,7 +151,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                                         <!-- <li><a class="nav-link text-left active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a></li> -->
                                                     </ul>
                                                 </div>
-                                                <div class="col-lg-11 col-md-10 col-sm-12">
+                                                <div class="col-xl-11 col-lg-10 col-md-10 col-sm-12">
                                                     <div class="tab-content" id="v-pills-tabContent">
                                                         <% for(var i=0; i<item['classify'].length; i++) { %>
                                                             <div class="tab-pane fade <%if(i==0){%>show active <%}%>" id="<%= item['classify'][i]['id'] %>" role="tabpanel" aria-labelledby="<%= item['classify'][i]['id'] %>-tab">

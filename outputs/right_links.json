@@ -236,6 +236,7 @@
                 ]
             },
             {
+                "id": "securitysitenav",
                 "name": "导航",
                 "description": "",
                 "links": [
@@ -246,6 +247,7 @@
                 ]
             },
             {
+                "id": "onlinectf",
                 "name": "在线 CTF",
                 "description": "",
                 "links": [
@@ -260,6 +262,7 @@
                 ]
             },
             {
+                "id": "securityteam",
                 "name": "安全团队",
                 "description": "",
                 "links": [
@@ -302,6 +305,7 @@
                 ]
             },
             {
+                "id": "securitycompany",
                 "name": "安全公司",
                 "description": "",
                 "links": [
@@ -328,6 +332,7 @@
                 ]
             },
             {
+                "id": "exploitdb",
                 "name": "漏洞库",
                 "description": "",
                 "links": [
@@ -338,6 +343,7 @@
                 ]
             },
             {
+                "id": "md5",
                 "name": "MD5 解密",
                 "description": "",
                 "links": [
@@ -356,6 +362,7 @@
         ],
         "classify": [
             {
+                "id": "c/c++",
                 "name": "C/C++",
                 "description": "",
                 "links": [
@@ -366,6 +373,7 @@
                 ]
             },
             {
+                "id": "java",
                 "name": "Java",
                 "description": "",
                 "links": [
@@ -388,6 +396,7 @@
                 ]
             },
             {
+                "id": "php",
                 "name": "PHP",
                 "description": "",
                 "link": "http://php.net/",
@@ -415,6 +424,7 @@
                 ]
             },
             {
+                "id": "go",
                 "name": "Go",
                 "description": "",
                 "links": [
@@ -437,6 +447,7 @@
                 ]
             },
             {
+                "id": "python",
                 "name": "Python",
                 "description": "",
                 "links": [
@@ -455,6 +466,7 @@
                 ]
             },
             {
+                "id": "kuapingtai",
                 "name": "跨平台",
                 "description": "",
                 "links": [
@@ -465,6 +477,7 @@
                 ]
             },
             {
+                "id": "compiler",
                 "name": "编译器",
                 "description": "",
                 "links": [
@@ -475,6 +488,7 @@
                 ]
             },
             {
+                "id": "huibian",
                 "name": "汇编",
                 "description": "",
                 "links": [
@@ -485,6 +499,7 @@
                 ]
             },
             {
+                "id": "markdown",
                 "name": "Markdown",
                 "description": "",
                 "links": [
@@ -495,6 +510,7 @@
                 ]
             },
             {
+                "id": "css",
                 "name": "CSS",
                 "description": "",
                 "links": [
@@ -505,6 +521,7 @@
                 ]
             },
             {
+                "id": "webfront",
                 "name": "前端开发",
                 "description": "",
                 "links": [
@@ -515,6 +532,7 @@
                 ]
             },
             {
+                "id": "latex",
                 "name": "Latex",
                 "description": "",
                 "links": [
@@ -525,6 +543,7 @@
                 ]
             },
             {
+                "id": "database",
                 "name": "Database",
                 "description": "",
                 "links": [
@@ -539,6 +558,7 @@
                 ]
             },
             {
+                "id": "oj",
                 "name": "OJ",
                 "description": "",
                 "links": [
@@ -553,6 +573,7 @@
                 ]
             },
             {
+                "id": "Algorithm",
                 "name": "Algorithm",
                 "description": "",
                 "links": [
@@ -563,6 +584,7 @@
                 ]
             },
             {
+                "id": "Serverless",
                 "name": "Serverless",
                 "description": "",
                 "links": [
@@ -589,6 +611,7 @@
         ],
         "classify": [
             {
+                "id": "coin",
                 "name": "Coins",
                 "description": "",
                 "links": [
@@ -615,6 +638,7 @@
                 ]
             },
             {
+                "id": "bitcoin",
                 "name": "Bitcoin",
                 "description": "",
                 "links": [
@@ -665,6 +689,7 @@
                 ]
             },
             {
+                "id": "segwit",
                 "name": "Segwit",
                 "description": "",
                 "links": [
@@ -687,6 +712,7 @@
                 ]
             },
             {
+                "id": "Ethereum",
                 "name": "Ethereum",
                 "description": "",
                 "links": [
@@ -709,6 +735,7 @@
                 ]
             },
             {
+                "id": "BitcoinCash",
                 "name": "Bitcoin Cash",
                 "description": "",
                 "links": [
@@ -727,6 +754,7 @@
                 ]
             },
             {
+                "id": "Explorer",
                 "name": "Explorer",
                 "description": "",
                 "links": [
@@ -757,6 +785,7 @@
                 ]
             },
             {
+                "id": "ZCash",
                 "name": "ZCash",
                 "description": "",
                 "links": [
@@ -767,6 +796,7 @@
                 ]
             },
             {
+                "id": "lightningnetwork",
                 "name": "闪电网络",
                 "description": "",
                 "links": [
@@ -785,6 +815,7 @@
                 ]
             },
             {
+                "id": "eos",
                 "name": "EOS",
                 "description": "",
                 "links": [
@@ -799,6 +830,7 @@
                 ]
             },
             {
+                "id": "litecoin",
                 "name": "Litecoin",
                 "description": "",
                 "links": [
@@ -809,6 +841,7 @@
                 ]
             },
             {
+                "id": "marketcap",
                 "name": "MarketCap",
                 "description": "",
                 "links": [
@@ -819,6 +852,7 @@
                 ]
             },
             {
+                "id": "bsv",
                 "name": "BSV",
                 "description": "",
                 "links": [
@@ -829,6 +863,7 @@
                 ]
             },
             {
+                "id": "security",
                 "name": "Security",
                 "description": "",
                 "links": [
@@ -847,6 +882,7 @@
                 ]
             },
             {
+                "id": "MimbleWimble",
                 "name": "MimbleWimble",
                 "description": "",
                 "links": [
@@ -877,6 +913,7 @@
                 ]
             },
             {
+                "id": "ipfs",
                 "name": "IPFS",
                 "description": "",
                 "link": "https://ipfs.io/",
@@ -888,6 +925,7 @@
                 ]
             },
             {
+                "id": "wallet",
                 "name": "钱包",
                 "description": "",
                 "link": "",
@@ -907,6 +945,7 @@
                 ]
             },
             {
+                "id": "people",
                 "name": "People",
                 "description": "",
                 "links": [
@@ -937,6 +976,7 @@
         ],
         "classify": [
             {
+                "id": "devops",
                 "name": "DevOps",
                 "description": "",
                 "links": [
@@ -947,6 +987,7 @@
                 ]
             },
             {
+                "id": "kubernetes",
                 "name": "Kubernetes",
                 "description": "",
                 "link": "https://kubernetes.io/",
@@ -1072,6 +1113,7 @@
                 ]
             },
             {
+                "id": "blog-android",
                 "name": "Android",
                 "description": "",
                 "links": [
@@ -1082,6 +1124,7 @@
                 ]
             },
             {
+                "id": "blog-php",
                 "name": "PHP",
                 "description": "",
                 "links": [
@@ -1096,6 +1139,7 @@
                 ]
             },
             {
+                "id": "misc",
                 "name": "杂项",
                 "description": "",
                 "links": [
@@ -1106,6 +1150,7 @@
                 ]
             },
             {
+                "id": "bitcoin",
                 "name": "Bitcoin",
                 "description": "",
                 "links": [
