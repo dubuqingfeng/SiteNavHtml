@@ -4,7 +4,7 @@ htmlWebpackPlugin.options.left_links = htmlWebpackPlugin.options.left_links || [
 htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYPE html>
 <html lang="<%= htmlWebpackPlugin.options.lang %>">
 <head>
-    <title>Sitenav</title>
+    <title>这是一个 网址导航</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -174,7 +174,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                                                         <% for(var i=0; i<item['classify'].length; i++) { %>
                                                             <div class="tab-pane fade <%if(i==0){%>show active <%}%>" id="<%= item['classify'][i]['id'] %>" role="tabpanel" aria-labelledby="<%= item['classify'][i]['id'] %>-tab">
                                                                 <div class="row">
-                                                                <% for (var link of item['classify'][i]['links']) { %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <% for (var link of item['classify'][i]['links']) { %>
                                                                     <div class="col-xl-2 col-lg-3 col-md-3">
                                                                         <div class="card">
                                                                             <div class="card-body">

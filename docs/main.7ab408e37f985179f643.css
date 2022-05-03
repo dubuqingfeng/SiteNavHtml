@@ -781,10 +781,10 @@ p.text-muted {
   background: transparent;
   padding: 15px;
 }
-.card .card-block,
+/* .card .card-block,
 .card .card-body {
   padding: 30px 25px;
-}
+} */
 .card.card-load {
   position: relative;
   overflow: hidden;

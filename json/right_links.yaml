@@ -26,6 +26,9 @@
     - link: https://www.oschina.net/
       name: 开源中国
       description: 中文开源技术交流社区
+    - link: https://juejin.cn/
+      name: 掘金
+      description: 帮助开发者成长的社区
   - id: jishuqikan
     name: 技术期刊
     description: ''
@@ -72,23 +75,44 @@
   special:
   - link: https://btc.com
     name: BTC.com
-  - link: http://www.qukuaiwang.com.cn/
-    name: 区块网
   classify:
-  - id: coin
-    name: Coins
+  - id: blockchaincommon
+    name: 常用
     description: ''
     links:
-    - link: https://lopp.net/bitcoin.html
-      name: RESOURCES
-    - link: https://www.coinwarz.com/cryptocurrency/coins
-      name: coinwarz
-    - link: https://bitinfocharts.com/zh/
-      name: bitinfocharts
-    - link: https://miningpoolstats.stream/
-      name: MiningPoolStats
-    - link: https://txstreet.com/
-      name: TxStreet
+    - link: https://bitcoin.org/en/
+      name: Bitcoin
+      description: Bitcoin is an innovative payment network and a new kind of money.
+    - link: https://www.binance.com/en
+      name: Binance
+      description: The world's leading blockchain asset 
+    - link: https://etherscan.io/
+      name: Etherscan
+      description: A Block Explorer and Analytics Platform for Ethereum
+    - link: https://discord.com/
+      name: Discord
+      description: 一款专为社群设计的免费网络实时通话软件与数字发行平台
+    - link: https://twitter.com/
+      name: Twitter
+      description: 美国一个微博客和社交网络服务平台
+    - link: https://opensea.io/
+      name: Opensea
+      description: The world's first and largest NFT marketplace
+    - link: https://www.nansen.ai/
+      name: Nansen
+      description: Real Time Crypto And NFT Insights
+    - link: https://www.coinbase.com/
+      name: Coinbase
+      description: 一个免费的数字资产交易平台
+    - link: https://docs.soliditylang.org
+      name: Dolidity
+      description: An object-oriented, high-level language for implementing smart contracts.
+    - link: https://www.theblockbeats.info/
+      name: Theblockbeats
+      description: 一个专业的NFT、元宇宙信息资讯发布平台
+    - link: https://oklink.com
+      name: Oklink
+      description: 多币种浏览器
   - id: bitcoin
     name: Bitcoin
     description: ''
@@ -115,18 +139,6 @@
       name: 精通比特币
     - link: https://bitcoin.clarkmoody.com/dashboard/
       name: bitcoin-dashboard
-  - id: segwit
-    name: Segwit
-    description: ''
-    links:
-    - link: https://en.bitcoin.it/wiki/Segregated_Witness
-      name: Wiki
-    - link: https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki
-      name: BIP141
-    - link: https://bitcoincore.org/en/segwit_wallet_dev/
-      name: bitcoin core segwit dev
-    - link: https://segwitaddress.org/
-      name: paper wallet
   - id: Ethereum
     name: Ethereum
     description: ''
@@ -139,16 +151,15 @@
       name: BTC.com
     - link: https://www.parity.io/ethereum/
       name: parity
-  - id: BitcoinCash
-    name: Bitcoin Cash
+  - id: defi
+    name: defi
     description: ''
     links:
-    - link: https://github.com/Bitcoin-ABC/bitcoin-abc
-      name: GitHub
-    - link: https://github.com/copernet/copernicus
-      name: Copernicus
-    - link: https://cash.coin.dance/
-      name: CoinDance
+    - link: https://www.defipulse.com/
+      name: defipulse
+    - link: https://aave.com/
+      name: aave
+      description: Open Source Liquidity Protocol
   - id: Explorer
     name: Explorer
     description: ''
@@ -165,6 +176,55 @@
       name: bitflyer
     - link: https://www.blockchain.com/explorer
       name: Blockchain
+    - link: https://oklink.com
+      name: oklink
+  - id: wallet
+    name: 钱包
+    description: ''
+    link: ''
+    links:
+    - link: https://www.coinomi.com/en/
+      name: Coinomi
+    - link: https://electrum.org/#home
+      name: Electrum
+    - link: https://electroncash.org/
+      name: ElectronCash
+  - id: coin
+    name: Coins
+    description: ''
+    links:
+    - link: https://lopp.net/bitcoin.html
+      name: RESOURCES
+    - link: https://www.coinwarz.com/cryptocurrency/coins
+      name: coinwarz
+    - link: https://bitinfocharts.com/zh/
+      name: bitinfocharts
+    - link: https://miningpoolstats.stream/
+      name: MiningPoolStats
+    - link: https://txstreet.com/
+      name: TxStreet
+  - id: segwit
+    name: Segwit
+    description: ''
+    links:
+    - link: https://en.bitcoin.it/wiki/Segregated_Witness
+      name: Wiki
+    - link: https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki
+      name: BIP141
+    - link: https://bitcoincore.org/en/segwit_wallet_dev/
+      name: bitcoin core segwit dev
+    - link: https://segwitaddress.org/
+      name: paper wallet
+  - id: BitcoinCash
+    name: Bitcoin Cash
+    description: ''
+    links:
+    - link: https://github.com/Bitcoin-ABC/bitcoin-abc
+      name: GitHub
+    - link: https://github.com/copernet/copernicus
+      name: Copernicus
+    - link: https://cash.coin.dance/
+      name: CoinDance
   - id: ZCash
     name: ZCash
     description: ''
@@ -240,17 +300,6 @@
     links:
     - link: https://github.com/ipfs/ipfs
       name: GitHub
-  - id: wallet
-    name: 钱包
-    description: ''
-    link: ''
-    links:
-    - link: https://www.coinomi.com/en/
-      name: Coinomi
-    - link: https://electrum.org/#home
-      name: Electrum
-    - link: https://electroncash.org/
-      name: ElectronCash
   - id: people
     name: People
     description: ''
@@ -679,3 +728,27 @@
     links:
     - link: https://tieba.baidu.com/f?kw=balisong
       name: balisong吧
+- name: 相关导航
+  description: ''
+  special: []
+  classify:
+  - id: sitenav-blockchain
+    name: 区块链
+    description: ''
+    links:
+    - link: https://chainoe.com/
+      name: chainoe 区块链导航
+      description: 'ChainOE收录优秀区块链网站分类目录'
+    - link: https://1234btc.com/
+      name: 1234btc
+      description: 区块链数字货币网址导航
+- name: 失效链接
+  description: ''
+  special: []
+  classify:
+  - id: outline-blockchain
+    name: 区块链
+    description: ''
+    links:
+     - link: http://www.qukuaiwang.com.cn/
+       name: 区块网
