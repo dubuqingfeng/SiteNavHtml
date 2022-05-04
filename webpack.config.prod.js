@@ -11,7 +11,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
-      title: '这是一个网址导航',
+      title: '这是一个 网址导航',
       lang: 'zh-cn',
       left_links: leftLinks,
       right_links: rightLinks,

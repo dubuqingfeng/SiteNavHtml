@@ -70,6 +70,9 @@
     links:
     - link: https://www.1point3acres.com/bbs/
       name: 一亩三分地
+    - link: https://leetcode-cn.com/
+      name: LeetCode
+      description: 专业的 IT 技术职业化提升平台
 - name: 区块链
   description: ''
   special:
@@ -105,7 +108,7 @@
       name: Coinbase
       description: 一个免费的数字资产交易平台
     - link: https://docs.soliditylang.org
-      name: Dolidity
+      name: Solidity
       description: An object-oriented, high-level language for implementing smart contracts.
     - link: https://www.theblockbeats.info/
       name: Theblockbeats
@@ -113,6 +116,27 @@
     - link: https://oklink.com
       name: Oklink
       description: 多币种浏览器
+    - link: https://coinmarketcap.com/
+      name: CoinMarketCap
+      description: 行情网站
+    - link: https://duneanalytics.com/
+      name: DuneAnalytics
+      description: 一个关于区块链的数据分析平台
+    - link: https://www.bitmain.com/zh
+      name: Bitmain
+      description: 一家专注于高速、低功耗定制芯片设计研发的科技公司
+    - link: https://app.uniswap.org
+      name: uniswap
+      description: 一种用于交换加密货币的分散金融协议
+    - link: https://www.jinse.com/
+      name: 金色财经
+      description: 区块链行业新闻媒体平台
+    - link: https://coinlist.co/
+      name: coinlist
+      description: The trusted platform for new crypto offerings.
+    - link: https://www.aicoin.com/
+      name: AICoin
+      description: 实时行情、专业K线、数据，分析、资产管理等专业服务
   - id: bitcoin
     name: Bitcoin
     description: ''
@@ -139,6 +163,9 @@
       name: 精通比特币
     - link: https://bitcoin.clarkmoody.com/dashboard/
       name: bitcoin-dashboard
+    - link: https://glassnode.com/
+      name: glassnode
+      description: 提供比特币链上交易转账的数据
   - id: Ethereum
     name: Ethereum
     description: ''
@@ -148,7 +175,7 @@
     - link: https://etherscan.io/
       name: Etherscan
     - link: https://eth.btc.com/
-      name: BTC.com
+      name: BTC.com Explorer
     - link: https://www.parity.io/ethereum/
       name: parity
   - id: defi
@@ -189,6 +216,31 @@
       name: Electrum
     - link: https://electroncash.org/
       name: ElectronCash
+  - id: NFT
+    name: NFT
+    description: ''
+    link: ''
+    links:
+    - link: https://opensea.io/
+      name: Opensea
+      description: The world's first and largest NFT marketplace
+    - link: https://looksrare.org
+      name: LooksRare
+      description: LooksRare 交易所
+    - link: https://www.nft.io/
+      name: NFT.io
+    - link: https://nftbank.ai
+      name: NFTBank
+      description: 计算你的NFT盈利情况
+    - link: https://nftgo.io
+      name: nftgo
+      description: 看新项目、追踪NFT巨鲸
+    - link: http://icy.tools
+      name: icy.tools
+      description: 看mint趋势
+    - link: http://rarity.tools
+      name: rarity.tools
+      description: 查NFT稀有度
   - id: coin
     name: Coins
     description: ''
@@ -550,6 +602,12 @@
       name: Redis
     - link: https://github.com/antirez/redis
       name: Redis GitHub
+    - link: https://github.com/codenotary/immudb
+      name: immudb
+      description: immutable database based on zero trust, SQL and Key-Value, tamperproof, data change history
+    - link: https://github.com/ClickHouse/ClickHouse
+      name: ClickHouse
+      description: a free analytics DBMS for big data
   - id: oj
     name: OJ
     description: ''
@@ -662,13 +720,13 @@
       name: laruence
     - link: http://rango.swoole.com/
       name: 韩天峰
-  - id: misc
+  - id: blog-misc
     name: 杂项
     description: ''
     links:
     - link: http://www.yinwang.org/
       name: 王垠
-  - id: bitcoin
+  - id: blog-bitcoin
     name: Bitcoin
     description: ''
     links:
@@ -742,6 +800,12 @@
     - link: https://1234btc.com/
       name: 1234btc
       description: 区块链数字货币网址导航
+    - link: https://dexnav.com/
+      name: dexnav
+      description: 炒币每日工作流
+    - link: https://www.biyixian.com/
+      name: 币一线
+      description: 是一家专注收集整合数字货币圈内网址网站大全的专业平台。
 - name: 失效链接
   description: ''
   special: []
