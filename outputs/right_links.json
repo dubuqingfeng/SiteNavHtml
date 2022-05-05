@@ -234,6 +234,31 @@
               "link": "https://www.aicoin.com/",
               "name": "AICoin",
               "description": "实时行情、专业K线、数据，分析、资产管理等专业服务"
+            },
+            {
+              "link": "https://www.chainalysis.com/",
+              "name": "Chainanalysis",
+              "description": "The Blockchain Data Platform"
+            },
+            {
+              "link": "https://whale-alert.io/",
+              "name": "Whale Alert",
+              "description": "one of the largest and fastest growing crypto communities."
+            },
+            {
+              "link": "https://metamask.io/",
+              "name": "Metamark",
+              "description": "A crypto wallet & gateway to blockchain apps"
+            },
+            {
+              "link": "https://www.8btc.com/",
+              "name": "8BTC",
+              "description": "巴比特社区"
+            },
+            {
+              "link": "https://steemit.com/trending/hive-180932",
+              "name": "Steemit",
+              "description": "Steemit is a social media platform for sharing content and opinions"
             }
           ]
         },
@@ -329,6 +354,41 @@
               "link": "https://aave.com/",
               "name": "aave",
               "description": "Open Source Liquidity Protocol"
+            },
+            {
+              "link": "https://www.coingecko.com/en/categories/decentralized-finance-defi",
+              "name": "coingecko",
+              "description": "币虎排名"
+            },
+            {
+              "link": "https://defirate.com/",
+              "name": "defirate",
+              "description": "defi 利率计算器"
+            },
+            {
+              "link": "https://debank.com/",
+              "name": "debank",
+              "description": "DeFi 资产管理"
+            },
+            {
+              "link": "https://zapper.fi/",
+              "name": "zapper",
+              "description": "DeFi 投资组合追踪工具"
+            },
+            {
+              "link": "https://defisaver.com/",
+              "name": "defisaver",
+              "description": "管理面板"
+            },
+            {
+              "link": "https://zerion.io/",
+              "name": "zerion",
+              "description": "钱包地址追踪工具"
+            },
+            {
+              "link": "https://defi.ai/",
+              "name": "DeFi.ai",
+              "description": "DeFi 分析工具"
             }
           ]
         },
