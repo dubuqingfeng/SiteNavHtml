@@ -152,6 +152,9 @@
     - link: https://steemit.com/trending/hive-180932
       name: Steemit
       description: Steemit is a social media platform for sharing content and opinions
+    - link: https://dprism.ai/dashboard
+      name: Dprism.ai
+      description: dPrism Blockchain Data Oriented Ecosystem.Tracking, Demystifying and Linking On-chain, Cross-chain and Off-chain Data & Behaviors.
   - id: bitcoin
     name: Bitcoin
     description: ''
@@ -181,6 +184,9 @@
     - link: https://glassnode.com/
       name: glassnode
       description: 提供比特币链上交易转账的数据
+    - link: https://bitcoinops.org/en/newsletters/
+      name: bitcoin optech newsletter
+      description: 比特币技术订阅
   - id: Ethereum
     name: Ethereum
     description: ''
