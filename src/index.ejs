@@ -117,7 +117,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
             <ul class="navbar-nav mr-auto">
             </ul>
             <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
+               <!-- <li class="nav-item">
                   <div class="main-search">
                      <div class="input-group">
                         <input type="text" id="m-search" class="form-control" placeholder="Search . . .">
@@ -129,7 +129,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                         </span>
                      </div>
                   </div>
-               </li>
+               </li> -->
                <li class="nav-item">
                   <a class="waves-effect waves-light" href="https://xiaoye.me">Life</a>
                </li>
@@ -151,6 +151,26 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                      <div class="page-wrapper">
                         <!-- [ Main Content ] start -->
                         <div class="col">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                       <select id="select-explorers" data-live-search="true" class="selectpicker form-control select-explorers" data-width="fit" data-style="btn-lg btn-primary">
+                                          <!-- <optgroup label="Insects">
+                                                <option data-tokens="mustard">example1</option>
+                                                <option>example2</option>
+                                                <option>example3</option>
+                                          </optgroup> -->
+                                       </select>
+                                    </div>  
+                                    <input type="text" id="content" class="form-control" size="9" aria-label="" name="content" value="" >
+                                    <div class="input-group-append input-group-btn">
+                                       <button type="submit" id="search" class="btn btn-primary btn-lg search-btn" data-loading-text="Loading..." aria-haspopup="true"
+                                                aria-expanded="false"><b>Search</b></button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                            <!-- Right classify -->
                            <% if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %>
                            <% for (item of htmlWebpackPlugin.options.right_links) { %>
@@ -278,7 +298,7 @@ htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYP
                      <h5 class="text-uppercase text-white">关于我们</h5>
                      <ul class="list-unstyled mb-0">
                         <li>
-                           <p class="grey-text text-lighten-4">一个不知名的网址导航. Made by <a class="orange-text text-lighten-3" href="https://github.com/dubuqingfeng/SiteNavHtml">Dubuqingfeng</a></p>
+                           <p class="grey-text text-lighten-4">自用网址导航. <br>Made by <a class="orange-text text-lighten-3" href="https://github.com/dubuqingfeng/SiteNavHtml">Dubuqingfeng</a></p>
                            
                         </li>
                      </ul>

@@ -6,6 +6,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "bootstrap": "^4.3.1",
+    "bootstrap-select": "^1.13.18",
     "jquery": "^3.5.0",
     "popper.js": "^1.16.1"
   },
@@ -21,7 +22,7 @@
     "hydrogen-js-sdk": "^2.2.51",
     "mini-css-extract-plugin": "^2.4.5",
     "style-loader": "^3.3.1",
-    "uglifyjs-webpack-plugin": "^2.2.0",
+    "terser-webpack-plugin": "^5.3.3",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"

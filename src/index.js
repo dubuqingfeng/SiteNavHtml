@@ -1,8 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-select/dist/css/bootstrap-select.css'
 import './fonts/feather/css/feather.css'
 import './css/style.css'
+import './css/custom.css'
 
 import 'bootstrap/dist/js/bootstrap.min.js'
+import 'bootstrap-select/dist/js/bootstrap-select.min.js'
 import './js/vendor-all.min.js'
 import './js/pcoded.min.js'
+import './js/app.js'
 import 'jquery/dist/jquery.min.js'

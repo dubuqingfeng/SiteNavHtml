@@ -1,0 +1,8 @@
+.select-explorers .dropdown-item.active, .dropdown-item:active {
+    color: #000000;
+}
+
+.select-explorers .btn {
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
