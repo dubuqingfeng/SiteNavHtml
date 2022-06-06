@@ -42,7 +42,7 @@
         "search": "https://blockchair.com/search?q={0}"
     },
     "binance-trade": {
-        "name": "Binance Trade, Example: ETH_BTC",
+        "name": "Binance Trade, EX: ETH_BTC",
         "title": "Binance Trade",
         "url": "https://www.binance.com/trade.html",
         "search": "https://www.binance.com/zh-CN/trade/{0}?theme=dark&type=spot"
@@ -190,5 +190,23 @@
         "title": "Etherchain",
         "url": "https://www.etherchain.org/",
         "search": "https://www.etherchain.org/search?q={0}"
+    },
+    "waxbloksio": {
+        "name": "Waxbloksio",
+        "title": "Waxbloksio",
+        "url": "https://wax.bloks.io/",
+        "search": "https://wax.bloks.io/"
+    },
+    "bloksio": {
+        "name": "EOS Bloks.io",
+        "title": "EOS Bloks.io",
+        "url": "https://bloks.io/",
+        "search": "https://bloks.io/"
+    },
+    "eosflare.io": {
+        "name": "EOSFlare.io",
+        "title": "EOSFlare.io",
+        "url": "https://eosflare.io/",
+        "search": "https://eosflare.io/search/{0}"
     }
 }
