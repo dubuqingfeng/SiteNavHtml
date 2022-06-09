@@ -32,7 +32,7 @@
     "build": "webpack --config webpack.config.prod.js --mode production",
     "bmob": "node fetchData.js && webpack --config webpack.config.bmob.js --mode production",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",

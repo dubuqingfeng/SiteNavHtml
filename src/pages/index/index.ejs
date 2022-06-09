@@ -1,0 +1,345 @@
+<% var item, key %><%
+htmlWebpackPlugin.options.lang = htmlWebpackPlugin.options.lang || "en" %><%
+htmlWebpackPlugin.options.left_links = htmlWebpackPlugin.options.left_links || [] %><%
+htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %><!DOCTYPE html>
+<html lang="<%= htmlWebpackPlugin.options.lang %>">
+   <head>
+      <title><%= htmlWebpackPlugin.options.title %></title>
+      <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 11]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="" />
+      <meta name="keywords" content=""/>
+      <meta name="author" content="dubuqingfeng"/>
+      <!-- Favicon icon -->
+      <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <!-- Google Analytics -->
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         ga('create', 'UA-129728264-1', 'auto');
+         ga('send', 'pageview');
+      </script>
+      <!-- End Google Analytics -->
+   </head>
+   <body>
+      <!-- [ Pre-loader ] start -->
+      <div class="loader-bg">
+         <div class="loader-track">
+            <div class="loader-fill"></div>
+         </div>
+      </div>
+      <!-- [ Pre-loader ] End -->
+      <!-- [ navigation menu ] start -->
+      <nav class="pcoded-navbar">
+         <div class="navbar-wrapper">
+            <div class="navbar-brand header-logo">
+               <a href="index.html" class="b-brand">
+                  <div class="b-bg">
+                     <i class="feather icon-link"></i>
+                  </div>
+                  <span class="b-title">网址导航</span>
+               </a>
+               <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
+            </div>
+            <div class="navbar-content scroll-div">
+               <ul class="nav pcoded-inner-navbar" role="tablist" aria-orientation="vertical">
+                  <!-- <li class="nav-item pcoded-menu-caption">
+                     <label>Navigation</label>
+                     </li> -->
+                  <li data-username="dashboard" class="nav-item active">
+                     <a href="index.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                  </li>
+                  <!-- Right Classify Menu -->
+                  <% if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %>
+                  <% for (item of htmlWebpackPlugin.options.right_links) { %>
+                  <li data-username="" class="nav-item pcoded-hasmenu">
+                     <a href="javascript:" class="nav-link "><span class="pcoded-mtext"><%= item['name'] %></span></a>
+                     <ul class="pcoded-submenu">
+                        <% for (var i=0; i<item['classify'].length; i++) { %>
+                        <li>
+                           <a class="" id="tab" data-toggle="pill" href="#<%= item['classify'][i]['id'] %>" role="tab" aria-controls="<%= item['classify'][i]['id'] %>" aria-selected="true">
+                           <%= item['classify'][i]['name'] %>
+                           </a>
+                        </li>
+                        <% } %>
+                     </ul>
+                  </li>
+                  <% } %>
+                  <% } %>
+                  <li class="nav-item pcoded-menu-caption">
+                     <label>Links</label>
+                  </li>
+                  <!-- Left classify -->
+                  <% if (Array.isArray(htmlWebpackPlugin.options.left_links)) { %><%
+                     for (item of htmlWebpackPlugin.options.left_links) { %>
+                  <li data-username="" class="nav-item pcoded-hasmenu">
+                     <a href="javascript:" class="nav-link "><span class="pcoded-mtext"><%= item['name'] %></span></a>
+                     <ul class="pcoded-submenu">
+                        <% for (link of item['links']) { %>
+                        <li><a class="" id="home-tab" data-toggle="pill" href="<%= link['link'] %>" role="tab" aria-controls="<%= link['id'] %>" aria-selected="true"><%= link['name'] %></a></li>
+                        <% } %>
+                     </ul>
+                  </li>
+                  <%
+                     } %><%
+                     } %><%
+                     %>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- [ navigation menu ] end -->
+      <!-- [ Header ] start -->
+      <header class="navbar pcoded-header navbar-expand-lg navbar-light">
+         <div class="m-header">
+            <a class="mobile-menu" id="mobile-collapse1" href="javascript:"><span></span></a>
+            <a href="index.html" class="b-brand">
+               <div class="b-bg">
+                  <i class="feather icon-trending-up"></i>
+               </div>
+               <span class="b-title">SiteNav</span>
+            </a>
+         </div>
+         <a class="mobile-menu" id="mobile-header" href="javascript:">
+         <i class="feather icon-more-horizontal"></i>
+         </a>
+         <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav ml-auto">
+               <!-- <li class="nav-item">
+                  <div class="main-search">
+                     <div class="input-group">
+                        <input type="text" id="m-search" class="form-control" placeholder="Search . . .">
+                        <a href="javascript:" class="input-group-append search-close">
+                        <i class="feather icon-x input-group-text"></i>
+                        </a>
+                        <span class="input-group-append search-btn btn btn-primary">
+                        <i class="feather icon-search input-group-text"></i>
+                        </span>
+                     </div>
+                  </div>
+               </li> -->
+               <li class="nav-item">
+                  <a class="waves-effect waves-light" href="https://xiaoye.me">Life</a>
+               </li>
+               <li class="nav-item">
+                  <a class="waves-effect waves-light" href="https://dbqf.xyz">Tech</a>
+               </li>
+            </ul>
+         </div>
+      </header>
+      <!-- [ Header ] end -->
+      <!-- [ Main Content ] start -->
+      <div class="pcoded-main-container">
+         <div class="pcoded-wrapper">
+            <div class="pcoded-content">
+               <div class="pcoded-inner-content">
+                  <!-- [ breadcrumb ] start -->
+                  <!-- [ breadcrumb ] end -->
+                  <div class="main-body">
+                     <div class="page-wrapper">
+                        <!-- [ Main Content ] start -->
+                        <div class="col">
+                           <div class="card">
+                              <div class="card-body">
+                                 <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                       <select id="select-explorers" data-live-search="true" class="selectpicker form-control select-explorers" data-width="fit" data-style="btn-lg btn-primary">
+                                          <!-- <optgroup label="Insects">
+                                                <option data-tokens="mustard">example1</option>
+                                                <option>example2</option>
+                                                <option>example3</option>
+                                          </optgroup> -->
+                                       </select>
+                                    </div>  
+                                    <input type="text" id="content" class="form-control" size="9" aria-label="" name="content" value="" >
+                                    <div class="input-group-append input-group-btn">
+                                       <button type="submit" id="search" class="btn btn-primary btn-lg search-btn" data-loading-text="Loading..." aria-haspopup="true"
+                                                aria-expanded="false"><b>Search</b></button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Right classify -->
+                           <% if (Array.isArray(htmlWebpackPlugin.options.right_links)) { %>
+                           <% for (item of htmlWebpackPlugin.options.right_links) { %>
+                           <div class="row">
+                              <div class="col">
+                                 <div class="card">
+                                    <div class="card-header">
+                                       <h5><%= item['name'] %></h5>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12" style="width: 15%;
+                                                   flex: 0 0 15%;max-width: 15%;">
+                                          <ul class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                             <% for (var i=0; i<item['classify'].length; i++) { %>
+                                             <li><a class="nav-link text-left <%if(i==0){%>active <%}%>" id="v-pills-home-tab" data-toggle="pill" href="#<%= item['classify'][i]['id'] %>" role="tab" aria-controls="<%= item['classify'][i]['id'] %>" aria-selected="true"><%= item['classify'][i]['name'] %></a></li>
+                                             <% } %>
+                                             <!-- <li><a class="nav-link text-left active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a></li> -->
+                                          </ul>
+                                       </div>
+                                       <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12" >
+                                          <div class="tab-content" id="v-pills-tabContent">
+                                             <% for(var i=0; i<item['classify'].length; i++) { %>
+                                             <div class="tab-pane fade <%if(i==0){%>show active <%}%>" id="<%= item['classify'][i]['id'] %>" role="tabpanel" aria-labelledby="<%= item['classify'][i]['id'] %>-tab">
+                                                <div class="row">
+                                                   <% for (var link of item['classify'][i]['links']) { %>
+                                                   <div class="col-xl-2 col-lg-3 col-md-3" style="width: 25%;
+                                                   flex: 0 0 25%;max-width: 25%;">
+                                                      <div class="card">
+                                                         <div class="card-body">
+                                                            <h5 class="card-title"><a href="<%= link['link'] %>" target="_blank" title="<%= link['title'] %>">
+                                                               <b><%= link['name'] %></b>
+                                                               </a>
+                                                            </h5>
+                                                            <p class="card-text"><%= link['description'] %></p>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <% } %>
+                                                </div>
+                                             </div>
+                                             <% } %>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <% if (Array.isArray(item['special']) && item['special'].length > 0) { %>
+                                    <div class="card-footer">
+                                       <% for (special of item['special']) { %>
+                                       <a class="btn btn-light" role="button" href="<%= special['link'] %>" target="_blank" title="<%= special['title'] %>">
+                                       <%= special['name'] %>
+                                       </a>
+                                       <% } %>
+                                    </div>
+                                    <% } %>
+                                 </div>
+                              </div>
+                           </div>
+                           <% } %>
+                           <% } %>
+                           <!-- End right classify -->
+                        </div>
+                        <!-- [ Main Content ] end -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- [ Main Content ] end -->
+      <!-- Warning Section Starts -->
+      <!-- Older IE warning message -->
+      <!--[if lt IE 11]>
+      <div class="ie-warning">
+         <h1>Warning!!</h1>
+         <p>You are using an outdated version of Internet Explorer, please upgrade
+            <br/>to any of the following web browsers to access this website.
+         </p>
+         <div class="iew-container">
+            <ul class="iew-download">
+               <li>
+                  <a href="http://www.google.com/chrome/">
+                     <img src="assets/images/browser/chrome.png" alt="Chrome">
+                     <div>Chrome</div>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.mozilla.org/en-US/firefox/new/">
+                     <img src="assets/images/browser/firefox.png" alt="Firefox">
+                     <div>Firefox</div>
+                  </a>
+               </li>
+               <li>
+                  <a href="http://www.opera.com">
+                     <img src="assets/images/browser/opera.png" alt="Opera">
+                     <div>Opera</div>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.apple.com/safari/">
+                     <img src="assets/images/browser/safari.png" alt="Safari">
+                     <div>Safari</div>
+                  </a>
+               </li>
+               <li>
+                  <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                     <img src="assets/images/browser/ie.png" alt="">
+                     <div>IE (11 & above)</div>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <p>Sorry for the inconvenience!</p>
+      </div>
+      <![endif]-->
+      <!-- Warning Section Ends -->
+      <!-- Required Js -->
+      <!-- Footer -->
+      <!-- Footer -->
+      <footer class="bg-dark text-center text-white">
+         <!-- Grid container -->
+         <div class="container p-4">
+            <!-- Section: Links -->
+            <section class="">
+               <!--Grid row-->
+               <div class="row">
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase text-white">关于我们</h5>
+                     <ul class="list-unstyled mb-0">
+                        <li>
+                           <p class="grey-text text-lighten-4">自用网址导航. <br>Made by <a class="orange-text text-lighten-3" href="https://github.com/dubuqingfeng/SiteNavHtml">Dubuqingfeng</a></p>
+                           
+                        </li>
+                     </ul>
+                  </div>
+                  <!--Grid column-->
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase text-white">友情链接</h5>
+                     <ul class="list-unstyled mb-0">
+                        <li>
+                           <a href="#!" class="text-white">Link 1</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!--Grid column-->
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase text-white">联系</h5>
+                     <ul class="list-unstyled mb-0">
+                        <li>
+                           <a class="text-white" href="https://dbqf.xyz" target="_blank">My Blog</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!--Grid column-->
+               </div>
+               <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+         </div>
+         <!-- Grid container -->
+         <!-- Copyright -->
+         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://sitenav.link">Sitenav.link</a>
+         </div>
+         <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      <!-- End Footer -->
+   </body>
+</html>
