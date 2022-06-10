@@ -10,7 +10,23 @@ https://sitenav.link
 
 目前在 json 文件夹下，bmob 的话，放 outputs 文件夹。
 
-### 数据服务
+### 安装
+
+node 版本 > v12
+
+安装依赖
+
+    npm install
+
+本地运行：
+
+    npm run start
+
+编译发布：
+
+    npm run build
+
+### Bmob 数据服务
 
 1. Bmob
 
