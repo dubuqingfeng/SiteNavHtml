@@ -27,7 +27,7 @@
         "name": "OKLink",
         "title": "OKLink",
         "url": "https://oklink.com/",
-        "search": "https://www.oklink.com//middle/multi-search?key={0}"
+        "search": "https://www.oklink.com/middle/multi-search?key={0}"
     },
     "btccom": {
         "name": "BTC.com",
@@ -46,6 +46,12 @@
         "title": "BlockBeats",
         "url": "https://www.theblockbeats.info/",
         "search": "https://www.theblockbeats.info/search/{0}"
+    },
+    "pansearch": {
+        "name": "PanSearch",
+        "title": "PanSearch",
+        "url": "https://pansearch.long2ice.io",
+        "search": "https://pansearch.long2ice.io/search?keyword={0}&pan="
     },
     "binance-trade": {
         "name": "Binance Trade, EX: ETH_BTC",
