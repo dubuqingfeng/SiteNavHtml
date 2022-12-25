@@ -47,11 +47,23 @@
         "url": "https://www.theblockbeats.info/",
         "search": "https://www.theblockbeats.info/search/{0}"
     },
+    "ahhhhfs": {
+        "name": "ahhhhfs",
+        "title": "ahhhhfs",
+        "url": "https://www.ahhhhfs.com",
+        "search": "https://www.ahhhhfs.com/?s={0}"
+    },
     "pansearch": {
         "name": "PanSearch",
         "title": "PanSearch",
         "url": "https://pansearch.long2ice.io",
         "search": "https://pansearch.long2ice.io/search?keyword={0}&pan="
+    },
+    "tbsdy": {
+        "name": "土拨鼠电影",
+        "title": "土拨鼠电影",
+        "url": "https://www.tbsdy.com",
+        "search": "https://www.tbsdy.com/search.html?keyword={0}"
     },
     "binance-trade": {
         "name": "Binance Trade, EX: ETH_BTC",
