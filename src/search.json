@@ -17,23 +17,23 @@
         "url": "http://www.baidu.com",
         "search": "http://www.baidu.com/s?wd={0}"
     },
-    "btccom": {
-        "name": "BTC.com",
-        "title": "BTC.com",
-        "url": "https://www.btc.com/",
-        "search": "https://explorer.btc.com/search/{0}"
-    },
-    "blockbeats": {
-        "name": "BlockBeats",
-        "title": "BlockBeats",
-        "url": "https://www.theblockbeats.info/",
-        "search": "https://www.theblockbeats.info/search/{0}"
-    },
     "etherscan": {
         "name": "Etherscan",
         "title": "Etherscan",
         "url": "https://etherscan.io/",
         "search": "https://etherscan.io/search?q={0}"
+    },
+    "oklink": {
+        "name": "OKLink",
+        "title": "OKLink",
+        "url": "https://oklink.com/",
+        "search": "https://www.oklink.com//middle/multi-search?key={0}"
+    },
+    "btccom": {
+        "name": "BTC.com",
+        "title": "BTC.com",
+        "url": "https://www.btc.com/",
+        "search": "https://explorer.btc.com/search/{0}"
     },
     "blockchair": {
         "name": "Blockchair",
@@ -41,17 +41,17 @@
         "url": "https://blockchair.com/",
         "search": "https://blockchair.com/search?q={0}"
     },
+    "blockbeats": {
+        "name": "BlockBeats",
+        "title": "BlockBeats",
+        "url": "https://www.theblockbeats.info/",
+        "search": "https://www.theblockbeats.info/search/{0}"
+    },
     "binance-trade": {
         "name": "Binance Trade, EX: ETH_BTC",
         "title": "Binance Trade",
         "url": "https://www.binance.com/trade.html",
         "search": "https://www.binance.com/zh-CN/trade/{0}?theme=dark&type=spot"
-    },
-    "oklink": {
-        "name": "OKLink",
-        "title": "OKLink",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/btc/search?key={0}"
     },
     "tokenview": {
         "name": "Tokenview",
@@ -106,66 +106,6 @@
         "title": "CoinMarketCap",
         "url": "https://coinmarketcap.com/",
         "search": "https://coinmarketcap.com/search?q={0}"
-    },
-    "oklink-eth": {
-        "name": "OKLinkEth",
-        "title": "OKLink Ethereum",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/eth/search?key={0}"
-    },
-    "oklink-okc": {
-        "name": "OKLinkOKC",
-        "title": "OKLink OKC",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/okc/search?key={0}"
-    },
-    "oklink-bsc": {
-        "name": "OKLinkBSC",
-        "title": "OKLink BSC",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/bsc/search?key={0}"
-    },
-    "oklink-polygon": {
-        "name": "OKLinkPolygon",
-        "title": "OKLink Polygon",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/polygon/search?key={0}"
-    },
-    "oklink-etc": {
-        "name": "OKLinkETC",
-        "title": "OKLink ETC",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/etc/search?key={0}"
-    },
-    "oklink-bch": {
-        "name": "OKLinkBCH",
-        "title": "OKLink BCH",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/bch/search?key={0}"
-    },
-    "oklink-ltc": {
-        "name": "OKLinkLTC",
-        "title": "OKLink LTC",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/ltc/search?key={0}"
-    },
-    "oklink-dash": {
-        "name": "OKLinkDASH",
-        "title": "OKLink DASH",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/dash/search?key={0}"
-    },
-    "oklink-usdt": {
-        "name": "OKLinkUSDT",
-        "title": "OKLink USDT",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/usdt/search?key={0}"
-    },
-    "oklink-trx": {
-        "name": "OKLinkTRX",
-        "title": "OKLink TRX",
-        "url": "https://oklink.com/",
-        "search": "https://www.oklink.com/trx/search?key={0}"
     },
     "oklink-sol": {
         "name": "OKLinkSOL",
